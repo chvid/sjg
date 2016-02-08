@@ -1,6 +1,6 @@
 # Java Applet Games by Christian Hvid 1996-2004
 
-[!(./media-friendly.jpg)]
+[![](./media-friendly.jpg)]
 
 This is a collection of Java Applet games made 1996 to 2004 and published on my personal websites (diami.au.dk/~chvid and vredungmand.dk).
 
@@ -17,9 +17,9 @@ The games are:
 * Mr. Hopwit and the mysterious maze (2004)
 * Mr. Hopwit hits the roof (2004)
 
-This video shows what the last one looked like:
+This is a youtube playlist with recordings of each of the games:
 
-[![Mr. Hopwit hits the roof](http://img.youtube.com/vi/PZxyG85sVD4/0.jpg)](http://www.youtube.com/watch?v=PZxyG85sVD4)
+[![Mr. Hopwit hits the roof](http://img.youtube.com/vi/PZxyG85sVD4/0.jpg)](http://https://youtu.be/PZxyG85sVD4?list=PL6oesj_Ic5Mx3EWYHin0Gs0qSK0WD66Ij)
 
 ## Building and running
 
