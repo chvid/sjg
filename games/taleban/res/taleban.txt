@@ -1,0 +1,665 @@
+<?xml version="1.0" standalone="yes"?>
+<SJGame>
+  <frames web="taleban.gif">
+    <frame name="bush0e" x="0" y="0" width="32" height="50"/>
+    <frame name="bush1e" x="32" y="0" width="32" height="50"/>
+    <frame name="bush2e" x="64" y="0" width="32" height="50"/>
+    <frame name="bush3e" x="96" y="0" width="32" height="50"/>
+    <frame name="bush4e" x="128" y="0" width="32" height="50"/>
+
+    <frame name="robot0" x="0" y="800" width="32" height="50"/>
+    <frame name="robot1e" x="32" y="800" width="32" height="50"/>
+    <frame name="robot2e" x="64" y="800" width="32" height="50"/>
+    <frame name="robot3e" x="96" y="800" width="32" height="50"/>
+    <frame name="robot4e" x="128" y="800" width="32" height="50"/>
+
+    <frame name="robot1w" x="32" y="850" width="32" height="50"/>
+    <frame name="robot2w" x="64" y="850" width="32" height="50"/>
+    <frame name="robot3w" x="96" y="850" width="32" height="50"/>
+    <frame name="robot4w" x="128" y="850" width="32" height="50"/>
+
+    <frame name="bush0w" x="0" y="50" width="32" height="50"/>
+    <frame name="bush1w" x="32" y="50" width="32" height="50"/>
+    <frame name="bush2w" x="64" y="50" width="32" height="50"/>
+    <frame name="bush3w" x="96" y="50" width="32" height="50"/>
+    <frame name="bush4w" x="128" y="50" width="32" height="50"/>
+
+    <frame name="bushd1" x="0" y="218" width="32" height="50"/>
+    <frame name="bushd2" x="32" y="218" width="32" height="50"/>
+    <frame name="bushd3" x="64" y="218" width="32" height="50"/>
+    <frame name="bushd4" x="96" y="218" width="32" height="50"/>
+    <frame name="bushd5" x="128" y="218" width="32" height="50"/>
+    <frame name="bushd6" x="160" y="218" width="32" height="50"/>
+
+    <frame name="fish1e" x="0" y="400" width="32" height="32"/>
+    <frame name="fish2e" x="32" y="400" width="32" height="32"/>
+    <frame name="fish3e" x="64" y="400" width="32" height="32"/>
+
+    <frame name="fish1s" x="0" y="432" width="32" height="32"/>
+    <frame name="fish2s" x="32" y="432" width="32" height="32"/>
+    <frame name="fish3s" x="64" y="432" width="32" height="32"/>
+
+    <frame name="fish1w" x="0" y="464" width="32" height="32"/>
+    <frame name="fish2w" x="32" y="464" width="32" height="32"/>
+    <frame name="fish3w" x="64" y="464" width="32" height="32"/>
+
+    <frame name="fish1n" x="0" y="496" width="32" height="32"/>
+    <frame name="fish2n" x="32" y="496" width="32" height="32"/>
+    <frame name="fish3n" x="64" y="496" width="32" height="32"/>
+
+    <frame name="expfish1" x="0" y="150" width="32" height="32"/>
+    <frame name="expfish2" x="32" y="150" width="32" height="32"/>
+    <frame name="expfish3" x="64" y="150" width="32" height="32"/>
+    <frame name="expfish4" x="96" y="150" width="32" height="32"/>
+
+    <frame name="expgold1" x="0" y="118" width="32" height="32"/>
+    <frame name="expgold2" x="32" y="118" width="32" height="32"/>
+    <frame name="expgold3" x="64" y="118" width="32" height="32"/>
+    <frame name="expgold4" x="96" y="118" width="32" height="32"/>
+
+    <frame name="expblue1" x="0" y="182" width="32" height="32"/>
+    <frame name="expblue2" x="32" y="182" width="32" height="32"/>
+    <frame name="expblue3" x="64" y="182" width="32" height="32"/>
+    <frame name="expblue4" x="96" y="182" width="32" height="32"/>
+
+    <frame name="block" x="0" y="300" width="32" height="32"/>
+    <frame name="brick" x="32" y="300" width="32" height="32"/>
+    <frame name="barrel" x="64" y="300" width="32" height="32"/>
+    <frame name="ground" x="96" y="300" width="32" height="32"/>
+    <frame name="gold" x="128" y="300" width="32" height="32"/>
+    <frame name="exit" x="128" y="268" width="32" height="32"/>
+
+    <frame name="ice1" x="0" y="268" width="32" height="32"/>
+    <frame name="ice2" x="32" y="268" width="32" height="32"/>
+    <frame name="ice3" x="64" y="268" width="32" height="32"/>
+
+    <frame name="bomb1" x="0" y="332" width="32" height="32"/>
+    <frame name="bomb2" x="32" y="332" width="32" height="32"/>
+    <frame name="bomb3" x="64" y="332" width="32" height="32"/>
+
+    <frame name="bombsplit1" x="0" y="364" width="32" height="32"/>
+    <frame name="bombsplit2" x="32" y="364" width="32" height="32"/>
+    <frame name="bombsplit3" x="64" y="364" width="32" height="32"/>
+    <frame name="bombsplit4" x="96" y="364" width="32" height="32"/>
+    <frame name="bombsplit5" x="128" y="364" width="32" height="32"/>
+    <frame name="bombsplit6" x="156" y="364" width="32" height="32"/>
+
+    <frame name="clickhere" x="470" y="96" width="230" height="62"/>
+ 
+    <frame name="gameover" x="239" y="546" width="461" height="107"/>
+    <frame name="logo" x="164" y="254" width="536" height="280"/>
+    <frame name="talebaner" x="0" y="528" width="192" height="260"/>
+    <frame name="bigrobot" x="431" y="743" width="269" height="257"/>
+
+    <frame name="0" x="198" y="132" width="16" height="18"/>
+    <frame name="1" x="217" y="132" width="8" height="18"/>
+    <frame name="2" x="226" y="132" width="11" height="18"/>
+    <frame name="3" x="238" y="132" width="10" height="18"/>
+    <frame name="4" x="250" y="132" width="13" height="18"/>
+    <frame name="5" x="266" y="132" width="10" height="18"/>
+    <frame name="6" x="278" y="132" width="13" height="18"/>
+    <frame name="7" x="293" y="132" width="10" height="18"/>
+    <frame name="8" x="306" y="132" width="12" height="18"/>
+    <frame name="9" x="320" y="132" width="13" height="18"/>
+
+    <frame name="heart" x="160" y="0" width="26" height="30"/>
+
+    <frame name="hiscore" x="192" y="0" width="175" height="10"/>
+  </frames>
+
+  <animations>
+    <animation name="bush">bush0e bush1e bush2e bush3e bush4e bush0w bush1w bush2w bush3w bush4w bushd1 bushd2 bushd1 bushd2 bushd3 bushd4 bushd5 bushd6</animation>
+    <animation name="robot">robot0 robot1e robot2e robot3e robot4e robot1w robot2w robot3w robot4w</animation>
+    <animation name="bomb">bomb1 bomb2 bomb3</animation>
+    <animation name="explosion_gold">expgold1 expgold2 expgold3 expgold4</animation>
+    <animation name="explosion_blue">expblue1 expblue2 expblue3 expblue4</animation>
+    <animation name="explosion_fish">expfish1 expfish2 expfish3 expfish4</animation>
+    <animation name="fish">fish1e fish2e fish3e fish1s fish2s fish3s fish1w fish2w fish3w fish1n fish2n fish3n</animation>
+    <animation name="bombsplit">bombsplit1 bombsplit2 bombsplit3 bombsplit4 bombsplit3 bombsplit4 bombsplit5 bombsplit6 bombsplit5 bombsplit6</animation>
+  </animations>
+
+  <scripts>
+    <script name="level1loop">
+      <command name="robot" x="208" y="240"/>
+      <wait time="50"/>
+      <jumpto script="level1loop"/>
+    </script>    
+    <script name="level1">
+      <command name="player" x="208" y="48"/>
+      <command name="fish" x="48" y="208"/>
+      <command name="fish" x="368" y="208"/>
+      <command name="nextlevel" text="level2"/>
+      <spawn script="level1loop"/>
+    </script>
+    <script name="level2loop">
+      <command name="robot" x="144" y="144"/>
+      <command name="robot" x="272" y="272"/>
+      <wait time="100"/>
+      <jumpto script="level2loop"/>
+    </script>    
+    <script name="level2">
+      <command name="nextlevel" text="level3"/>
+      <command name="player" x="208" y="208"/>
+      <command name="fish" x="112" y="304"/>
+      <command name="fish" x="304" y="112"/>
+      <spawn script="level2loop"/>
+    </script>
+    <script name="level3loop">
+      <command name="robot" x="208" y="240"/>
+      <wait time="50"/>
+      <jumpto script="level3loop"/>
+    </script>    
+    <script name="level3">
+      <command name="player" x="208" y="48"/>
+      <command name="fish" x="48" y="208"/>
+      <command name="fish" x="368" y="208"/>
+      <command name="nextlevel" text="level4"/>
+      <wait time="100"/>
+      <spawn script="level3loop"/>
+    </script>
+    <script name="level4loop">
+      <command name="robot" x="208" y="240"/>
+      <command name="robot" x="720" y="240"/>
+      <command name="fish" x="112" y="112"/>
+      <command name="fish" x="816" y="112"/>
+      <wait time="100"/>
+      <jumpto script="level4loop"/>
+    </script>    
+    <script name="level4">
+      <command name="nextlevel" text="level5"/>
+      <command name="player" x="464" y="208"/>
+      <spawn script="level4loop"/>
+    </script>
+    <script name="level5">
+      <command name="nextlevel" text="level6"/>
+      <command name="player" x="208" y="208"/>
+      <command name="fish" x="48" y="208"/>
+      <command name="fish" x="368" y="208"/>
+      <command name="fish" x="208" y="48"/>
+      <command name="fish" x="208" y="368"/>
+      <command name="fish" x="208" y="112"/>
+      <command name="fish" x="208" y="304"/>
+    </script>
+    <script name="level6loop">
+      <command name="robot" x="240" y="272"/>
+      <command name="robot" x="688" y="272"/>
+      <command name="fish" x="816" y="144"/>
+      <command name="fish" x="176" y="48"/>
+      <wait time="100"/>
+      <jumpto script="level6loop"/>
+    </script>    
+    <script name="level6">
+      <command name="fish" x="432" y="336"/>
+      <command name="fish" x="496" y="336"/>
+      <command name="nextlevel" text="level7"/>
+      <command name="player" x="464" y="208"/>
+      <spawn script="level6loop"/>
+    </script>
+    <script name="level7loop">
+      <command name="robot" x="144" y="144"/>
+      <command name="robot" x="272" y="272"/>
+      <wait time="100"/>
+      <jumpto script="level7loop"/>
+    </script>    
+    <script name="level7">
+      <command name="nextlevel" text="level8"/>
+      <command name="player" x="208" y="208"/>
+      <command name="fish" x="112" y="304"/>
+      <command name="fish" x="144" y="304"/>
+      <command name="fish" x="304" y="112"/>
+      <command name="fish" x="272" y="112"/>
+      <spawn script="level7loop"/>
+    </script>
+    <script name="level8loop">
+      <command name="robot" x="368" y="304"/>
+      <command name="robot" x="176" y="240"/>
+      <wait time="50"/>
+      <jumpto script="level8loop"/>
+    </script>    
+    <script name="level8">
+      <command name="nextlevel" text="level9"/>
+      <command name="player" x="272" y="272"/>
+      <command name="fish" x="48" y="48"/>
+      <command name="fish" x="496" y="48"/>
+      <command name="fish" x="496" y="496"/>
+      <command name="fish" x="48" y="496"/>
+      <command name="fish" x="304" y="336"/>
+      <command name="fish" x="240" y="208"/>
+      <command name="robot" x="240" y="144"/>
+      <command name="robot" x="304" y="400"/>
+      <spawn script="level8loop"/>
+    </script>
+    <script name="level9">
+      <command name="nextlevel" text="level10"/>
+      <command name="player" x="208" y="208"/>
+      <command name="fish" x="48" y="208"/>
+      <command name="fish" x="368" y="208"/>
+      <command name="fish" x="208" y="48"/>
+      <command name="fish" x="208" y="368"/>
+      <command name="fish" x="208" y="112"/>
+      <command name="fish" x="208" y="304"/>
+      <command name="robot" x="48" y="48"/>
+      <command name="robot" x="368" y="48"/>
+      <command name="robot" x="368" y="368"/>
+      <command name="robot" x="48" y="368"/>
+    </script>
+    <script name="level10loop">
+      <command name="robot" x="368" y="48"/>
+      <wait time="50"/>
+      <jumpto script="level10loop"/>
+    </script>    
+    <script name="level10">
+      <command name="nextlevel" text="level11"/>
+      <command name="player" x="48" y="48"/>
+      <command name="fish" x="176" y="208"/>
+      <command name="fish" x="176" y="368"/>
+      <command name="fish" x="208" y="368"/>
+      <command name="fish" x="144" y="368"/>
+      <spawn script="level10loop"/>
+    </script>
+    <script name="level11loop">
+      <command name="robot" x="208" y="240"/>
+      <wait time="50"/>
+      <jumpto script="level1loop"/>
+    </script>    
+    <script name="level11">
+      <command name="player" x="208" y="48"/>
+      <command name="fish" x="48" y="208"/>
+      <command name="fish" x="368" y="208"/>
+      <command name="nextlevel" text="level12"/>
+      <spawn script="level11loop"/>
+    </script>
+    <script name="level12loop">
+      <command name="robot" x="272" y="304"/>
+      <wait time="50"/>
+      <jumpto script="level12loop"/>
+    </script>    
+    <script name="level12">
+      <command name="player" x="272" y="112"/>
+      <command name="nextlevel" text="level13"/>
+      <command name="fish" x="464" y="80"/>
+      <command name="fish" x="432" y="432"/>
+      <command name="fish" x="80" y="464"/>
+      <command name="fish" x="112" y="112"/>
+      <wait time="100"/>
+      <spawn script="level12loop"/>
+    </script>
+    <script name="level13loop">
+      <wait time="25"/>
+      <command name="robot" x="304" y="144"/>
+      <wait time="25"/>
+      <command name="robot" x="304" y="432"/>
+      <jumpto script="level13loop"/>
+    </script>    
+    <script name="level13">
+      <command name="player" x="304" y="304"/>
+      <command name="nextlevel" text="level14"/>
+      <command name="robot" x="176" y="144"/>
+      <command name="robot" x="432" y="144"/>
+      <command name="robot" x="432" y="432"/>
+      <command name="robot" x="176" y="432"/>
+      <command name="fish" x="48" y="496"/>
+      <command name="fish" x="560" y="496"/>
+      <command name="fish" x="560" y="80"/>
+      <command name="fish" x="48" y="80"/>
+      <spawn script="level13loop"/>
+    </script>
+    <script name="level14loop">
+      <wait time="30"/>
+      <command name="robot" x="112" y="368"/>
+      <wait time="30"/>
+      <command name="robot" x="304" y="112"/>
+      <wait time="30"/>
+      <command name="robot" x="496" y="368"/>
+      <jumpto script="level14loop"/>
+    </script>    
+    <script name="level14">
+      <command name="player" x="304" y="240"/>
+      <command name="nextlevel" text="level15"/>
+      <command name="robot" x="48" y="48"/>
+      <command name="robot" x="560" y="48"/>
+      <command name="robot" x="560" y="432"/>
+      <command name="robot" x="48" y="432"/>
+
+      <command name="robot" x="48" y="240"/>
+      <command name="robot" x="560" y="240"/>
+      <command name="robot" x="304" y="48"/>
+      <command name="robot" x="304" y="432"/>
+
+      <command name="fish" x="496" y="240"/>
+      <command name="fish" x="112" y="240"/>
+
+      <spawn script="level14loop"/>
+    </script>
+    <script name="level15loop">
+      <wait time="45"/>
+      <command name="robot" x="624" y="176"/>
+      <command name="fish" x="624" y="176"/>
+      <wait time="45"/>
+      <command name="robot" x="240" y="816"/>
+      <command name="fish" x="240" y="816"/>
+      <jumpto script="level15loop"/>
+    </script>    
+    <script name="level15">
+      <command name="player" x="432" y="496"/>
+      <command name="nextlevel" text="level16"/>
+      <command name="robot" x="560" y="496"/>
+      <command name="robot" x="304" y="496"/>
+      <spawn script="level15loop"/>
+    </script>
+    <script name="level16loop">
+      <wait time="30"/>
+      <command name="fish" x="208" y="432"/>
+      <wait time="30"/>
+      <command name="robot" x="240" y="464"/>
+      <wait time="30"/>
+      <command name="fish" x="240" y="208"/>
+      <wait time="30"/>
+      <command name="robot" x="208" y="240"/>
+      <wait time="30"/>
+      <command name="fish" x="432" y="464"/>
+      <wait time="30"/>
+      <command name="robot" x="464" y="432"/>
+      <wait time="30"/>
+      <command name="fish" x="464" y="240"/>
+      <wait time="30"/>
+      <command name="robot" x="432" y="208"/>
+      <jumpto script="level16loop"/>
+    </script>    
+    <script name="level16">
+      <command name="player" x="336" y="336"/>
+      <command name="nextlevel" text="level1"/>
+      <command name="fish" x="336" y="240"/>
+      <command name="fish" x="240" y="336"/>
+      <command name="fish" x="432" y="336"/>
+      <command name="fish" x="336" y="432"/>
+      <command name="robot" x="336" y="176"/>
+      <command name="robot" x="496" y="336"/>
+      <command name="robot" x="336" y="496"/>
+      <command name="robot" x="176" y="336"/>
+      <spawn script="level16loop"/>
+    </script>
+  </scripts>
+  <mazes>
+    <maze name="level1">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w*.........*w"></b>
+      <b d="w.wwwbwbwww.w"></b>
+      <b d="w.w*******w.w"></b>
+      <b d="w.w*wiwiw*w.w"></b>
+      <b d="w.b*i...i*b.w"></b>
+      <b d="w.w*w.w.w*w.w"></b>
+      <b d="w.b*i...i*b.w"></b>
+      <b d="w.w*wiwiw*w.w"></b>
+      <b d="w.w*******w.w"></b>
+      <b d="w.wwwbwbwww.w"></b>
+      <b d="w*....E....*w"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level2">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w***********w"></b>
+      <b d="w*bbww*wwww*w"></b>
+      <b d="w*b..w****w*w"></b>
+      <b d="w*w..i*ww*w*w"></b>
+      <b d="wwwwii*bw*w*w"></b>
+      <b d="w*****E*****w"></b>
+      <b d="w*w*wb*iiwwww"></b>
+      <b d="w*w*ww*i..w*w"></b>
+      <b d="w*w****w..b*w"></b>
+      <b d="w*wwww*wwbb*w"></b>
+      <b d="w***********w"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level3">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w*.........*w"></b>
+      <b d="w.wwwbwbwww.w"></b>
+      <b d="w.w*******w.w"></b>
+      <b d="www*wiwiw*w.w"></b>
+      <b d="w.b*i...i*b.w"></b>
+      <b d="w.w*w.*.w*w.w"></b>
+      <b d="w.b*i...i*b.w"></b>
+      <b d="w.w*wiwiw*www"></b>
+      <b d="w.w*******w.w"></b>
+      <b d="w.wwwbwbwww.w"></b>
+      <b d="w*....E....*w"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level4">
+      <b d="wwwwwwwww           wwwwwwwww"></b>
+      <b d="w*******w           w*******w"></b>
+      <b d="w*bwwww*wwwww   wwwww*wwwwb*w"></b>
+      <b d="w*..wWw*****w   w*****wWw..*w"></b>
+      <b d="w*bwwwwwwww*w   w*wwwwwwwwb*w"></b>
+      <b d="w*bib...b*w*wwwww*w*b...bib*w"></b>
+      <b d="w*bii.w.i*****.*****i.w.iib*w"></b>
+      <b d="w*wwb...bwwwww.wwwwwb...bww*w"></b>
+      <b d="w*bwwiiiwwWWWw.wWWWwwiiiwwb*w"></b>
+      <b d="wwb......wwwww.wwwww......bww"></b>
+      <b d=" wwwwwww......E......wwwwwww "></b>
+      <b d="       wwwwwwwwwwwwwww       "></b>
+    </maze>
+    <maze name="level5">
+      <b d="   wwwwwww   "></b>
+      <b d="  w...E...w  "></b>
+      <b d=" wbbbbbbbbbw "></b>
+      <b d="w.b*******b.w"></b>
+      <b d="w.b*wibiw*b.w"></b>
+      <b d="w.b*i....*b.w"></b>
+      <b d="wEb*b...b*bEw"></b>
+      <b d="w.b*....i*b.w"></b>
+      <b d="w.b*wibiw*b.w"></b>
+      <b d="w.b*******b.w"></b>
+      <b d=" wbbbbbbbbbw "></b>
+      <b d="  w...E...w  "></b>
+      <b d="   wwwwwww   "></b>
+    </maze>
+    <maze name="level6">
+      <b d="wwwwwwwwwwwwwwwwwwwwwwwwwwwww"></b>
+      <b d="w.....w...w...********......w"></b>
+      <b d="w.bbbww.wwwwww.wwwwww*bwbwbww"></b>
+      <b d="w.b***w.....w...w...w*....bbw"></b>
+      <b d="w***w*w.w.w.w...w.w.w.w.w.wbw"></b>
+      <b d="w*bww*www.w.w.E.w.w.w.w.wwwbw"></b>
+      <b d="w*..w*b..****.....w.w...wbbbw"></b>
+      <b d="w*b.iiiii*wwww.wwww.iiiiibwbw"></b>
+      <b d="w*b.i...i*w.......w.i...ibwbw"></b>
+      <b d="w*b.iiiii*w.bbbbb.w.iiiii.w.w"></b>
+      <b d="w**.....w***************....w"></b>
+      <b d="wwwwwwwwwwwwwwwwwwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level7">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w***********w"></b>
+      <b d="w*bbwb*bwww*w"></b>
+      <b d="w*b..w****w*w"></b>
+      <b d="w*w..i*bw*w*w"></b>
+      <b d="wwwwiibbiii*w"></b>
+      <b d="w*b***E***b*w"></b>
+      <b d="w*iiibbiiwwww"></b>
+      <b d="w*w*wb*i..w*w"></b>
+      <b d="w*w****w..b*w"></b>
+      <b d="w*wwwb*bwbb*w"></b>
+      <b d="w***********w"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level8">
+      <b d="wwwwwwwwwwwwwwwww"></b>
+      <b d="w***************w"></b>
+      <b d="w*b.w.w*www.w.b*w"></b>
+      <b d="w*w.w.w***b.w.w*w"></b>
+      <b d="w*b...w*w*w.w.b*w"></b>
+      <b d="wwwwiii*w*b.w.w*w"></b>
+      <b d="w*b*i.i*wbw.w.b*w"></b>
+      <b d="w*w.i.iwb.b.w.w*w"></b>
+      <b d="w*b.iii.E.iii.b*w"></b>
+      <b d="w*w.w.b.bwi.i.w*w"></b>
+      <b d="w*b.w.wbw*i.i*b*w"></b>
+      <b d="w*w.w.b*w*iiiwwww"></b>
+      <b d="w*b.w.w*w*w...b*w"></b>
+      <b d="w*w.w.b***w.w.w*w"></b>
+      <b d="w*b.w.www*w.w.b*w"></b>
+      <b d="w***************w"></b>
+      <b d="wwwwwwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level9">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w.....E.....w"></b>
+      <b d="w.bbbbbbbbb.w"></b>
+      <b d="w.b*******b.w"></b>
+      <b d="w.b*wibiw*b.w"></b>
+      <b d="w.b*b...i*b.w"></b>
+      <b d="wEb*b...b*bEw"></b>
+      <b d="w.b*i...b*b.w"></b>
+      <b d="w.b*wbbiw*b.w"></b>
+      <b d="w.b*******b.w"></b>
+      <b d="w.bbbbbbbbb.w"></b>
+      <b d="w.....E.....w"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level10">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w..b.b.b....w"></b>
+      <b d="w.wwwwwwwww.w"></b>
+      <b d="w.wb...b..w.w"></b>
+      <b d="wbw.www.w.w.w"></b>
+      <b d="w.wbwwwbwbw.w"></b>
+      <b d="wb........w.w"></b>
+      <b d="wwwbwwwwwbw.w"></b>
+      <b d="wbw*wwwww.w.w"></b>
+      <b d="w.wb.....bw.w"></b>
+      <b d="wbwwwwwww.www"></b>
+      <b d="wbbb.....b.Ew"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level11">
+      <b d="wwwwwwwwwwwww"></b>
+      <b d="w*.........*w"></b>
+      <b d="w.wbwbwbwbw.w"></b>
+      <b d="w.b*******b.w"></b>
+      <b d="w.w*wbwbw*w.w"></b>
+      <b d="w.b*b...b*b.w"></b>
+      <b d="w.w*w.*.w*w.w"></b>
+      <b d="w.b*b...b*b.w"></b>
+      <b d="w.w*wbwbw*w.w"></b>
+      <b d="w.b*******b.w"></b>
+      <b d="w.wbwbwbwbw.w"></b>
+      <b d="w*....E....*w"></b>
+      <b d="wwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level12">
+      <b d="        wBwBwBwBw"></b>
+      <b d=" wBwBwBwbwbwbwbwB"></b>
+      <b d=" Bwbwbwbw.....*bw"></b>
+      <b d=" wb*....E......wB"></b>
+      <b d=" Bw.wbwbwbwbw..bw"></b>
+      <b d=" wb.b*******b..wB"></b>
+      <b d=" Bw.w*wbwbw*w..bw"></b>
+      <b d=" wb.b*b...b*b..wB"></b>
+      <b d="wbwEw*w.*.w*wEwbw"></b>
+      <b d="Bw..b*b...b*b.bw "></b>
+      <b d="wb..w*wbwbw*w.wB "></b>
+      <b d="Bw..b*******b.bw "></b>
+      <b d="wb..wbwbwbwbw.wB "></b>
+      <b d="Bw......E....*bw "></b>
+      <b d="wb*.....wbwbwbwB "></b>
+      <b d="BwbwbwbwbwBwBwBw "></b>
+      <b d="wBwBwBwBw        "></b>
+    </maze>
+    <maze name="level13">
+      <b d=" BwBwBwBwBwBwBwBwB "/>
+      <b d="BwbwbwbwbwbwbwbwbwB"/>
+      <b d="w*****************w"/>
+      <b d="wbwbw.w.wbw.w.wbwbw"/>
+      <b d="Bwb.b.b.b.b.b.b.bwB"/>
+      <b d=" Bwbw.w.wbw.w.wbwB "/>
+      <b d="  Bwb.........bwB  "/>
+      <b d="   Bwbi.ibi.ibwB   "/>
+      <b d="    Bwb.....bwB    "/>
+      <b d="    Bwb..E..bwB    "/>
+      <b d="   Bwbi.ibi.ibwB   "/>
+      <b d="  Bwb.........bwB  "/>
+      <b d=" Bwbw.w.wbw.w.wbwB "/>
+      <b d="Bwb.b.b.b.b.b.b.bwB"/>
+      <b d="wbwbw.w.wbw.w.wbwbw"/>
+      <b d="w*****************w"/>
+      <b d="BwbwbwbwbwbwbwbwbwB"/>
+      <b d=" BwBwBwBwBwBwBwBwB "/>
+    </maze>
+    <maze name="level14">
+      <b d="wwwwwwwwwwwwwwwwwww"/>
+      <b d="w*****************w"/>
+      <b d="w*wbw.w.wbw.w.wbw*w"/>
+      <b d="w*b.b.b.b.b.b.b.b*w"/>
+      <b d="w*wbw.w.wbw.w.wbw*w"/>
+      <b d="w*...............*w"/>
+      <b d="w*wbw.i.ibi.i.wbw*w"/>
+      <b d="w*.......E.......*w"/>
+      <b d="w*wbw.i.ibi.i.wbw*w"/>
+      <b d="w*...............*w"/>
+      <b d="w*wbw.w.wbw.w.wbw*w"/>
+      <b d="w*b.b.b.b.b.b.b.b*w"/>
+      <b d="w*wbw.w.wbw.w.wbw*w"/>
+      <b d="w*****************w"/>
+      <b d="wwwwwwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level15">
+      <b d="            wwwwwwwwwwwwwww"/>
+      <b d="            w.b.b.b.b*b*bbw"/>
+      <b d="    www     www.w.w.wwwwwbw"/>
+      <b d="    w.w     wBw..b.b.b*bw*w"/>
+      <b d="    www     w w.w.w.w.w*wbw"/>
+      <b d="            wBwb....wE.bw*w"/>
+      <b d="    wwwwwwwww w.w.w.www.wbw"/>
+      <b d="    w.......wBw........b..w"/>
+      <b d="    www.w.w.w w.w.w.www.wbw"/>
+      <b d="    w..bbb..wBw..bbb...b..w"/>
+      <b d="    wwwbwbwbwwwbwbwbwww.wbw"/>
+      <b d="    w..bbb.......bbb...b..w"/>
+      <b d="wwwwwww.w.wbw.wbw.w.w.w.wbw"/>
+      <b d="w......b..b.b.b.b..b......w"/>
+      <b d="wbwwwwwww.wbw.wbw.wwwwwww.w"/>
+      <b d="w*wB B Bw.b.b.b.b.wB B Bw*w"/>
+      <b d="wbwwwwwww.wbw.wbw.wwwwwww.w"/>
+      <b d="w......b..b.b.b.b..b......w"/>
+      <b d="wbw.w.w.w.wbw.wbw.w.wwwwwww"/>
+      <b d="w..b...bbb.......bbb..w    "/>
+      <b d="wbw.wwwbwbwbwwwbwbwbwww    "/>
+      <b d="w..b...bbb..wBw..bbb..w    "/>
+      <b d="wbw.www.w.w.w w.w.w.www    "/>
+      <b d="w..b........wBw.......w    "/>
+      <b d="wbw.www.w.w.w wwwwwwwww    "/>
+      <b d="w*wb.Ew....bwBw            "/>
+      <b d="wbw*w.w.w.w.w w     www    "/>
+      <b d="w*wb*b.b.b..wBw     w.w    "/>
+      <b d="wbwwwww.w.w.www     www    "/>
+      <b d="wbb*b*b.b.b.b.w            "/>
+      <b d="wwwwwwwwwwwwwww            "/>
+    </maze>
+    <maze name="level16">
+      <b d="wwwwwwwww   wwwwwwwww"/>
+      <b d="wE......w   w......Ew"/>
+      <b d="w.wb.bw.w   w.wb.bw.w"/>
+      <b d="w.bw.wb.w   w.bw.wb.w"/>
+      <b d="w...*bw.wwwww.wb*...w"/>
+      <b d="w.bwbwb*.....*bwbwb.w"/>
+      <b d="w.wbwbw.wbwbw.wbwbw.w"/>
+      <b d="w....*.w.....w.*....w"/>
+      <b d="wwwww.w.wb.bw.w.wwwww"/>
+      <b d="    w.b.bw.wb.b.w    "/>
+      <b d="    w.w.......w.w    "/>
+      <b d="    w.b.bw.wb.b.w    "/>
+      <b d="wwwww.w.wb.bw.w.wwwww"/>
+      <b d="w....*.w.....w.*....w"/>
+      <b d="w.wbwbw.wbwbw.wbwbw.w"/>
+      <b d="w.bwbwb*.....*bwbwb.w"/>
+      <b d="w...*bw.wwwww.wb*...w"/>
+      <b d="w.bw.wb.w   w.bw.bw.w"/>
+      <b d="w.wb.bw.w   w.wb.wb.w"/>
+      <b d="wE......w   w......Ew"/>
+      <b d="wwwwwwwww   wwwwwwwww"/>
+    </maze>
+  </mazes>
+</SJGame>
+

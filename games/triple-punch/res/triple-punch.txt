@@ -1,0 +1,1150 @@
+<?xml version="1.0" standalone="yes"?>
+<SJGame>
+  <frames web="triple-punch.gif">
+    <frame name="maze0000" x="160" y="268" width="32" height="32"/>
+    <frame name="maze0001" x="192" y="268" width="32" height="32"/>
+    <frame name="maze0010" x="224" y="268" width="32" height="32"/>
+    <frame name="maze0011" x="256" y="268" width="32" height="32"/>
+    <frame name="maze0100" x="160" y="300" width="32" height="32"/>
+    <frame name="maze0101" x="192" y="300" width="32" height="32"/>
+    <frame name="maze0110" x="224" y="300" width="32" height="32"/>
+    <frame name="maze0111" x="256" y="300" width="32" height="32"/>
+    <frame name="maze1000" x="160" y="332" width="32" height="32"/>
+    <frame name="maze1001" x="192" y="332" width="32" height="32"/>
+    <frame name="maze1010" x="224" y="332" width="32" height="32"/>
+    <frame name="maze1011" x="256" y="332" width="32" height="32"/>
+    <frame name="maze1100" x="160" y="364" width="32" height="32"/>
+    <frame name="maze1101" x="192" y="364" width="32" height="32"/>
+    <frame name="maze1110" x="224" y="364" width="32" height="32"/>
+    <frame name="maze1111" x="256" y="364" width="32" height="32"/>
+
+    <frame name="block0" x="560" y="0" width="32" height="32"/>
+    <frame name="block1" x="592" y="0" width="32" height="32"/>
+    <frame name="block2" x="560" y="32" width="32" height="32"/>
+    <frame name="block3" x="592" y="32" width="32" height="32"/>
+
+    <frame name="block0t" x="560" y="96" width="32" height="32"/>
+    <frame name="block1t" x="592" y="96" width="32" height="32"/>
+    <frame name="block2t" x="560" y="128" width="32" height="32"/>
+    <frame name="block3t" x="592" y="128" width="32" height="32"/>
+
+    <frame name="fixedtick" x="32" y="120" width="32" height="32"/>
+    <frame name="tick" x="0" y="120" width="32" height="32"/>
+    <frame name="tick1" x="340" y="300" width="32" height="32"/>
+    <frame name="tick2" x="372" y="300" width="32" height="32"/>
+    <frame name="tick3" x="404" y="300" width="32" height="32"/>
+    <frame name="tick4" x="436" y="300" width="32" height="32"/>
+
+    <frame name="tick-on-1" x="340" y="332" width="32" height="32"/>
+    <frame name="tick-on-2" x="372" y="332" width="32" height="32"/>
+
+    <frame name="babystill" x="400" y="264" width="32" height="32"/>
+    <frame name="babysmile" x="464" y="264" width="32" height="32"/>
+    <frame name="babydie1" x="496" y="264" width="32" height="32"/>
+    <frame name="babydie2" x="528" y="264" width="32" height="32"/>
+
+    <frame name="baby1s" x="400" y="200" width="32" height="32"/>
+    <frame name="baby2s" x="432" y="200" width="32" height="32"/>
+    <frame name="baby3s" x="464" y="200" width="32" height="32"/>
+
+    <frame name="baby1n" x="496" y="200" width="32" height="32"/>
+    <frame name="baby2n" x="528" y="200" width="32" height="32"/>
+    <frame name="baby3n" x="560" y="200" width="32" height="32"/>
+
+    <frame name="baby1e" x="400" y="232" width="32" height="32"/>
+    <frame name="baby2e" x="432" y="232" width="32" height="32"/>
+    <frame name="baby3e" x="464" y="232" width="32" height="32"/>
+
+    <frame name="baby1w" x="496" y="232" width="32" height="32"/>
+    <frame name="baby2w" x="528" y="232" width="32" height="32"/>
+    <frame name="baby3w" x="560" y="232" width="32" height="32"/>
+
+    <frame name="player0w" x="0" y="0" width="40" height="60"/>
+    <frame name="player1w" x="40" y="0" width="40" height="60"/>
+    <frame name="player2w" x="80" y="0" width="40" height="60"/>
+    <frame name="player3w" x="120" y="0" width="40" height="60"/>
+
+    <frame name="player0e" x="0" y="60" width="40" height="60"/>
+    <frame name="player1e" x="40" y="60" width="40" height="60"/>
+    <frame name="player2e" x="80" y="60" width="40" height="60"/>
+    <frame name="player3e" x="120" y="60" width="40" height="60"/>
+
+    <frame name="erik0" x="500" y="500" width="32" height="32"/>
+    <frame name="erik1e" x="532" y="500" width="32" height="32"/>
+    <frame name="erik2e" x="564" y="500" width="32" height="32"/>
+    <frame name="erik3e" x="596" y="500" width="32" height="32"/>
+    <frame name="erik1w" x="532" y="532" width="32" height="32"/>
+    <frame name="erik2w" x="564" y="532" width="32" height="32"/>
+    <frame name="erik3w" x="596" y="532" width="32" height="32"/>
+
+    <frame name="robot0" x="0" y="800" width="32" height="50"/>
+    <frame name="robot1e" x="32" y="800" width="32" height="50"/>
+    <frame name="robot2e" x="64" y="800" width="32" height="50"/>
+    <frame name="robot3e" x="96" y="800" width="32" height="50"/>
+    <frame name="robot4e" x="128" y="800" width="32" height="50"/>
+
+    <frame name="robot1w" x="32" y="850" width="32" height="50"/>
+    <frame name="robot2w" x="64" y="850" width="32" height="50"/>
+    <frame name="robot3w" x="96" y="850" width="32" height="50"/>
+    <frame name="robot4w" x="128" y="850" width="32" height="50"/>
+
+    <frame name="expfish1" x="0" y="200" width="32" height="32"/>
+    <frame name="expfish2" x="32" y="200" width="32" height="32"/>
+    <frame name="expfish3" x="64" y="200" width="32" height="32"/>
+    <frame name="expfish4" x="96" y="200" width="32" height="32"/>
+
+    <frame name="gameover" x="0" y="544" width="426" height="77"/>
+    <frame name="logo-top" x="700" y="0" width="560" height="108"/>
+    <frame name="logo-bottom" x="700" y="108" width="560" height="292"/>
+    <frame name="clickhere" x="16" y="479" width="320" height="27"/>
+    <frame name="clickhereover" x="16" y="509" width="320" height="27"/>
+
+    <frame name="0" x="198" y="132" width="16" height="18"/>
+    <frame name="1" x="217" y="132" width="8" height="18"/>
+    <frame name="2" x="226" y="132" width="11" height="18"/>
+    <frame name="3" x="238" y="132" width="10" height="18"/>
+    <frame name="4" x="250" y="132" width="13" height="18"/>
+    <frame name="5" x="266" y="132" width="10" height="18"/>
+    <frame name="6" x="278" y="132" width="13" height="18"/>
+    <frame name="7" x="293" y="132" width="10" height="18"/>
+    <frame name="8" x="306" y="132" width="12" height="18"/>
+    <frame name="9" x="320" y="132" width="13" height="18"/>
+
+    <frame name="stop_watch1" x="0" y="240" width="32" height="24"/>
+    <frame name="stop_watch2" x="32" y="240" width="32" height="24"/>
+    <frame name="stop_watch3" x="64" y="240" width="32" height="24"/>
+
+    <frame name="heart" x="432" y="264" width="24" height="24"/>
+
+    <frame name="fire1" x="0" y="300" width="26" height="32"/>
+    <frame name="fire2" x="26" y="300" width="26" height="32"/>
+    <frame name="fire3" x="52" y="300" width="26" height="32"/>
+    <frame name="fire6" x="0" y="332" width="26" height="32"/>
+    <frame name="fire5" x="26" y="332" width="26" height="32"/>
+    <frame name="fire4" x="52" y="332" width="26" height="32"/>
+    <frame name="fire3-freeze" x="78" y="300" width="26" height="32"/>
+    <frame name="fire4-freeze" x="78" y="332" width="26" height="32"/>
+
+    <frame name="ape0e" x="500" y="564" width="32" height="40"/>
+    <frame name="ape1e" x="532" y="564" width="32" height="40"/>
+    <frame name="ape2e" x="564" y="564" width="32" height="40"/>
+    <frame name="ape0w" x="500" y="604" width="32" height="40"/>
+    <frame name="ape1w" x="532" y="604" width="32" height="40"/>
+    <frame name="ape2w" x="564" y="604" width="32" height="40"/>
+
+    <frame name="morgen-ape0e" x="500" y="364" width="32" height="40"/>
+    <frame name="morgen-ape1e" x="532" y="364" width="32" height="40"/>
+    <frame name="morgen-ape2e" x="564" y="364" width="32" height="40"/>
+    <frame name="morgen-ape2e-freeze" x="596" y="364" width="32" height="40"/>
+
+    <frame name="morgen-ape0w" x="500" y="404" width="32" height="40"/>
+    <frame name="morgen-ape1w" x="532" y="404" width="32" height="40"/>
+    <frame name="morgen-ape2w" x="564" y="404" width="32" height="40"/>
+    <frame name="morgen-ape2w-freeze" x="596" y="404" width="32" height="40"/>
+
+    <frame name="morgen-erik0" x="500" y="300" width="32" height="32"/>
+    <frame name="morgen-erik1e" x="532" y="300" width="32" height="32"/>
+    <frame name="morgen-erik2e" x="564" y="300" width="32" height="32"/>
+    <frame name="morgen-erik3e" x="596" y="300" width="32" height="32"/>
+    <frame name="morgen-erik3e-freeze" x="628" y="300" width="32" height="32"/>    
+    <frame name="morgen-erik1w" x="532" y="332" width="32" height="32"/>
+    <frame name="morgen-erik2w" x="564" y="332" width="32" height="32"/>
+    <frame name="morgen-erik3w" x="596" y="332" width="32" height="32"/>
+    <frame name="morgen-erik3w-freeze" x="628" y="332" width="32" height="32"/>
+
+    <frame name="brick1" x="500" y="650" width="32" height="32"/>
+
+    <frame name="erik-forward" x="0" y="400" width="139" height="63"/>
+    <frame name="erik-backward" x="212" y="400" width="139" height="63"/>
+    <frame name="vs" x="156" y="425" width="38" height="40"/>
+
+    <frame name="sun" x="0" y="0" width="103" height="100"/>
+    <frame name="moon" x="103" y="0" width="40" height="56"/>
+    <frame name="stones" x="144" y="0" width="126" height="81"/>
+    <frame name="plant" x="270" y="0" width="66" height="80"/>
+    <frame name="stars" x="338" y="0" width="82" height="40"/>
+    <frame name="fish" x="433" y="0" width="117" height="107"/>
+    <frame name="waves" x="555" y="0" width="140" height="75"/>
+    <frame name="tree" x="138" y="161" width="96" height="105"/>
+    <frame name="scream" x="611" y="114" width="66" height="104"/>
+
+    <frame name="newhiscore" x="1" y="637" width="363" height="25"/>
+    <frame name="andpressreturn" x="426" y="459" width="272" height="14"/>
+
+  </frames>
+
+  <animations>
+    <animation name="player">babystill baby1w baby1w baby2w baby2w baby1w baby1w baby3w baby3w baby1e baby1e baby2e baby2e baby1e baby1e baby3e baby3e 
+      baby1n baby1n baby2n baby2n baby1n baby1n baby3n baby3n baby1s baby1s baby2s baby2s baby1s baby1s baby3s baby3s babysmile babydie1 babydie2</animation>
+    <animation name="player_die">baby2w baby3n baby2e baby3s baby2w baby3n baby2e baby3s baby2w baby3n baby2e baby3s baby2w baby3n baby2e baby3s babydie1 babydie1 babydie2 babydie2</animation>
+    <animation name="robot">robot0 robot1e robot2e robot3e robot4e robot1w robot2w robot3w robot4w</animation>
+    <animation name="erik">erik0 erik1e erik2e erik1e erik3e morgen-erik3e-freeze erik1w erik2w erik1w erik3w morgen-erik3w-freeze</animation>
+    <animation name="ape">ape0e ape1e ape2e morgen-ape2e-freeze ape0w ape1w ape2w morgen-ape2w-freeze</animation>
+    <animation name="morgen-erik">morgen-erik0 morgen-erik1e morgen-erik2e morgen-erik1e morgen-erik3e morgen-erik3e-freeze morgen-erik1w morgen-erik2w morgen-erik1w morgen-erik3w morgen-erik3w-freeze</animation>
+    <animation name="morgen-ape">morgen-ape0e morgen-ape1e morgen-ape2e morgen-ape2e-freeze morgen-ape0w morgen-ape1w morgen-ape2w morgen-ape2w-freeze</animation>
+    <animation name="explosion_untick">tick1 tick2 tick3 tick4</animation>
+    <animation name="explosion_tick">tick-on-2</animation>
+    <animation name="fire">fire1 fire2 fire3 fire2 fire3-freeze fire4 fire5 fire6 fire5 fire4-freeze</animation>
+    <animation name="explosion_enemy">expfish1 expfish2 expfish3 expfish4</animation>
+    <animation name="stop_watch">stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch1 stop_watch2 stop_watch1 stop_watch3 stop_watch1 stop_watch2 stop_watch1 stop_watch3</animation>
+    <animation name="sun">sun</animation>
+    <animation name="moon">moon</animation>
+    <animation name="plant">plant</animation>
+    <animation name="stones">stones</animation>
+    <animation name="stars">stars</animation>
+    <animation name="waves">waves</animation>
+    <animation name="fish">fish</animation>
+    <animation name="tree">tree</animation>
+    <animation name="scream">scream</animation>
+  </animations>
+
+  <scripts>
+    <script name="level1loop">
+      <wait time="60"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="120"/>
+      <command name="ring" x="432" y="304"/>
+      <wait time="10"/>
+      <command name="firew" x="432" y="304"/>
+      <wait time="60"/>
+      <jumpto script="level1loop"/>
+    </script>    
+    <script name="level1">
+      <command name="sc_bg" text="738697"/>
+      <command name="nextlevel" text="level2"/>
+      <command name="player" x="240" y="176"/>
+      <command name="robot" x="48" y="48"/>
+      <command name="fish" x="432" y="304"/>
+      <command name="animation moon" x="8" y="40"/>
+      <command name="animation stones" x="470" y="292"/>
+      <command name="animation stars" x="140" y="5"/>
+      <spawn script="level1loop"/>
+    </script>
+    <script name="level2robot_loop">
+      <wait time="200"/>
+      <command name="ring" x="304" y="208"/>
+      <wait time="10"/>
+      <command name="robot" x="304" y="208"/>
+      <jumpto script="level2robot_loop"/>
+    </script>
+    <script name="level2loop">
+      <wait time="100"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="100"/>
+      <command name="ring" x="560" y="400"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="400"/>
+      <jumpto script="level2loop"/>
+    </script>    
+    <script name="level2">
+      <command name="nextlevel" text="level3"/>
+      <command name="player" x="304" y="208"/>
+      <command name="fish" x="48" y="48"/>
+      <command name="fish" x="560" y="400"/>
+      <command name="sc_bg" text="909284"/>
+      <command name="sc_c1f" text="5c7eb6"/>
+      <command name="sc_c1r" text="7da7d7"/>
+      <command name="animation sun" x="515" y="68"/>
+      <command name="animation plant" x="112" y="365"/>
+      <spawn script="level2loop"/>
+      <spawn script="level2robot_loop"/>
+    </script>
+    <script name="level3robot_loop">
+      <wait time="200"/>
+      <command name="ring" x="304" y="272"/>
+      <wait time="10"/>
+      <command name="robot" x="304" y="272"/>
+      <wait time="200"/>
+      <command name="ring" x="304" y="272"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="304" y="272"/>
+      <jumpto script="level3robot_loop"/>
+    </script>
+    <script name="level3loop">
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="80"/>
+      <command name="ring" x="560" y="496"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="496"/>
+      <wait time="80"/>
+      <jumpto script="level3loop"/>
+    </script>    
+    <script name="level3">
+      <command name="player" x="304" y="272"/>
+      <command name="fish" x="48" y="272"/>
+      <command name="fish" x="560" y="272"/>
+      <command name="stop_watch" x="304" y="48"/>
+      <command name="stop_watch" x="304" y="496"/>
+      <command name="nextlevel" text="level4"/>
+      <command name="animation fish" x="90" y="490"/>
+      <command name="animation waves" x="520" y="70"/>
+
+      <command name="sc_bg" text="a9b3bd"/>
+      <command name="sc_1r" text="9c3612"/>
+      <command name="sc_2r" text="968f20"/>
+      <command name="sc_3r" text="2b7b2d"/>
+
+      <spawn script="level3loop"/>
+      <spawn script="level3robot_loop"/>
+    </script>
+    <script name="level4loop">
+      <wait time="70"/>
+      <command name="ring" x="176" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="176" y="48"/>
+      <wait time="70"/>
+      <command name="ring" x="48" y="208"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="208"/>
+      <wait time="70"/>
+      <command name="ring" x="624" y="464"/>
+      <wait time="10"/>
+      <command name="firew" x="624" y="464"/>
+      <jumpto script="level4loop"/>
+    </script>    
+    <script name="level4robot_loop">
+      <wait time="80"/>
+      <command name="ring" x="304" y="336"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="304" y="336"/>
+      <jumpto script="level4robot_loop"/>
+    </script>
+    <script name="level4">
+      <command name="sc_bg" text="695F7F"/>
+      <command name="sc_1r" text="9c3612"/>
+      <command name="sc_2r" text="968f20"/>
+      <command name="sc_3r" text="2b7b2d"/>
+      <command name="nextlevel" text="level5"/>
+      <command name="player" x="304" y="240"/>
+      <command name="fish" x="176" y="48"/>
+      <command name="fish" x="48" y="208"/>
+      <command name="fish" x="624" y="464"/>
+      <command name="stop_watch" x="304" y="464"/>
+      <command name="stop_watch" x="304" y="48"/>
+      <command name="animation moon" x="112" y="123"/>
+      <command name="animation stones" x="528" y="180"/>
+      <command name="animation stars" x="240" y="5"/>
+      <spawn script="level4robot_loop"/>
+      <spawn script="level4loop"/>
+    </script>
+    <script name="level5loop">
+      <wait time="30"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="30"/>
+      <command name="ring" x="624" y="48"/>
+      <wait time="10"/>
+      <command name="firen" x="624" y="48"/>
+      <wait time="30"/>
+      <command name="ring" x="624" y="624"/>
+      <wait time="10"/>
+      <command name="firew" x="624" y="624"/>
+      <wait time="30"/>
+      <command name="ring" x="48" y="624"/>
+      <wait time="10"/>
+      <command name="fires" x="48" y="624"/>
+      <jumpto script="level5loop"/>
+    </script>    
+    <script name="level5">
+      <command name="animation stars" x="356" y="550"/>
+      <command name="animation stars" x="316" y="600"/>
+      <command name="animation tree" x="336" y="100"/>
+      <command name="sc_bg" text="9d9D9D"/>
+      <command name="sc_1r" text="aAaAa8"/>
+      <command name="sc_2r" text="616161"/>
+      <command name="sc_3r" text="3C3C3C"/>
+      <command name="sc_1f" text="CACAC8"/>
+      <command name="sc_2f" text="818181"/>
+      <command name="sc_3f" text="5C5C5C"/>
+      <command name="nextlevel" text="level6"/>
+      <command name="player" x="336" y="336"/>
+      <command name="morgen-robot" x="176" y="336"/>
+      <command name="morgen-robot" x="496" y="336"/>
+      <command name="morgen-robot" x="336" y="176"/>
+      <command name="morgen-robot" x="336" y="496"/>
+      <command name="fish" x="48" y="48"/>
+      <command name="fish" x="624" y="48"/>
+      <command name="fish" x="624" y="624"/>
+      <command name="fish" x="48" y="624"/>
+      <command name="stop_watch" x="336" y="176"/>
+      <command name="stop_watch" x="336" y="496"/>
+      <spawn script="level5loop"/>
+    </script>
+    <script name="level6loop">
+      <wait time="40"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="40"/>
+      <command name="ring" x="560" y="432"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="432"/>
+      <jumpto script="level6loop"/>
+    </script>    
+    <script name="level6robot_loop">
+    </script>
+    <script name="level6">
+      <command name="sc_bg" text="BDBD97"/>
+      <command name="sc_1r" text="9D4729"/>
+      <command name="sc_2r" text="86823C"/>
+      <command name="sc_3r" text="467447"/>
+      <command name="sc_1f" text="AD5739"/>
+      <command name="sc_2f" text="96924C"/>
+      <command name="sc_3f" text="568457"/>
+      <command name="nextlevel" text="level7"/>
+      <command name="player" x="304" y="240"/>
+      <command name="animation scream" x="144" y="366"/>
+      <command name="fish" x="48" y="80"/>
+      <command name="fish" x="80" y="48"/>
+
+      <command name="fish" x="528" y="48"/>
+      <command name="fish" x="560" y="80"/>
+
+      <command name="fish" x="560" y="400"/>
+      <command name="fish" x="528" y="432"/>
+
+      <command name="fish" x="240" y="400"/>
+      <command name="fish" x="272" y="432"/>
+
+      <command name="stop_watch" x="48" y="48"/>
+      <command name="stop_watch" x="560" y="432"/>
+      <command name="stop_watch" x="560" y="48"/>
+      <command name="stop_watch" x="240" y="432"/>
+      <command name="stop_watch" x="304" y="112"/>
+
+      <spawn script="level6robot_loop"/>
+      <spawn script="level6loop"/>
+    </script>
+    <script name="level7loop">
+      <command name="ring" x="48" y="496"/>
+      <command name="ring" x="944" y="496"/>
+      <wait time="10"/>
+      <command name="fires" x="48" y="496"/>
+      <command name="firew" x="944" y="496"/>
+      <wait time="150"/>
+      <command name="ring" x="496" y="48"/>
+      <wait time="10"/>
+      <command name="firew" x="496" y="48"/>
+      <wait time="150"/>
+      <command name="ring" x="496" y="48"/>
+      <wait time="10"/>
+      <command name="firen" x="496" y="48"/>
+      <jumpto script="level7loop"/>
+    </script>    
+    <script name="level7robot_loop">
+      <wait time="140"/>
+      <command name="ring" x="304" y="240"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="304" y="240"/>
+      <wait time="140"/>
+      <command name="ring" x="688" y="240"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="688" y="240"/>
+      <jumpto script="level7robot_loop"/>
+    </script>
+    <script name="level7">
+      <command name="sc_bg" text="909284"/>
+      <command name="sc_c1f" text="5c7eb6"/>
+      <command name="sc_c1r" text="7da7d7"/>
+
+      <command name="nextlevel" text="level8"/>
+      <command name="player" x="496" y="496"/>
+
+      <command name="animation moon" x="180" y="190"/>
+      <command name="animation stars" x="120" y="140"/>
+      <command name="animation stars" x="90" y="180"/>
+      <command name="animation sun" x="784" y="140"/>
+
+      <command name="fish" x="368" y="304"/>
+      <command name="fish" x="624" y="304"/>
+      <command name="morgen-ape" x="464" y="48"/>
+      <command name="morgen-ape" x="528" y="48"/>
+
+      <command name="stop_watch" x="208" y="368"/>
+      <command name="stop_watch" x="816" y="368"/>
+
+      <spawn script="level7robot_loop"/>
+      <spawn script="level7loop"/>
+    </script>
+    <script name="level8robot_loop">
+      <wait time="200"/>
+      <command name="ring" x="304" y="208"/>
+      <wait time="10"/>
+      <command name="fish" x="304" y="208"/>
+      <jumpto script="level8robot_loop"/>
+    </script>
+    <script name="level8loop">
+      <wait time="100"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="100"/>
+      <command name="ring" x="560" y="592"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="592"/>
+      <jumpto script="level8loop"/>
+    </script>    
+    <script name="level8">
+      <command name="nextlevel" text="level9"/>
+      <command name="player" x="304" y="208"/>
+      <command name="morgen-ape" x="80" y="48"/>
+      <command name="morgen-ape" x="560" y="560"/>
+      <command name="morgen-ape" x="48" y="80"/>
+      <command name="morgen-ape" x="528" y="592"/>
+
+      <command name="sc_bg" text="7D9F7D"/>
+      <command name="sc_1r" text="CAC024"/>
+      <command name="sc_2r" text="D13E0B"/>
+      <command name="sc_3r" text="2B3AAD"/>
+      <command name="sc_1f" text="DAD034"/>
+      <command name="sc_2f" text="E14E1B"/>
+      <command name="sc_3f" text="3B4ABD"/>
+
+      <command name="stop_watch" x="112" y="112"/>
+      <command name="stop_watch" x="176" y="400"/>
+      <command name="stop_watch" x="560" y="592"/>
+
+      <command name="animation sun" x="80" y="380"/>
+      <command name="animation tree" x="140" y="555"/>
+      <command name="animation plant" x="50" y="560"/>
+      <command name="animation moon" x="515" y="68"/>
+      <spawn script="level8loop"/>
+      <spawn script="level8robot_loop"/>
+    </script>
+    <script name="level9loop">
+      <wait time="10"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="20"/>
+      <command name="ring" x="432" y="304"/>
+      <wait time="10"/>
+      <command name="firew" x="432" y="304"/>
+      <wait time="20"/>
+      <jumpto script="level9loop"/>
+    </script>    
+    <script name="level9">
+      <command name="sc_bg" text="738697"/>
+      <command name="nextlevel" text="level10"/>
+      <command name="player" x="240" y="176"/>
+      <command name="morgen-robot" x="48" y="48"/>
+      <command name="morgen-robot" x="432" y="48"/>
+      <command name="morgen-ape" x="432" y="304"/>
+      <command name="morgen-ape" x="48" y="304"/>
+      <command name="animation moon" x="8" y="40"/>
+      <command name="animation stones" x="470" y="292"/>
+      <command name="animation stars" x="140" y="5"/>
+      <spawn script="level9loop"/>
+    </script>
+    <script name="level10robot_loop">
+    </script>
+    <script name="level10loop">
+      <wait time="20"/>
+      <command name="ring" x="112" y="304"/>
+      <wait time="10"/>
+      <command name="firee" x="112" y="304"/>
+      <wait time="20"/>
+      <command name="ring" x="304" y="112"/>
+      <wait time="10"/>
+      <command name="firen" x="304" y="112"/>
+      <wait time="20"/>
+      <command name="ring" x="496" y="304"/>
+      <wait time="10"/>
+      <command name="firew" x="496" y="304"/>
+      <wait time="20"/>
+      <command name="ring" x="304" y="496"/>
+      <wait time="10"/>
+      <command name="fires" x="304" y="496"/>
+      <jumpto script="level10loop"/>
+    </script>    
+    <script name="level10">
+      <command name="sc_bg" text="C49590"/>
+      <command name="sc_1r" text="B2147C"/>
+      <command name="sc_2r" text="93312F"/>
+      <command name="sc_3r" text="757C3E"/>
+      <command name="sc_1f" text="C2248C"/>
+      <command name="sc_2f" text="A3413F"/>
+      <command name="sc_3f" text="858C4E"/>
+      <command name="nextlevel" text="level11"/>
+      <command name="player" x="304" y="304"/>
+      <command name="fish" x="48" y="304"/>
+      <command name="fish" x="560" y="304"/>
+      <command name="morgen-ape" x="304" y="48"/>
+      <command name="morgen-ape" x="304" y="560"/>
+      <command name="stop_watch" x="304" y="176"/>
+      <spawn script="level10robot_loop"/>
+      <spawn script="level10loop"/>
+    </script>
+    <script name="level11robot_loop">
+    </script>
+    <script name="level11loop">
+      <wait time="60"/>
+      <command name="ring" x="336" y="240"/>
+      <wait time="10"/>
+      <command name="firee" x="336" y="240"/>
+      <command name="ring" x="336" y="240"/>
+      <wait time="10"/>
+      <command name="firen" x="336" y="240"/>
+      <command name="ring" x="336" y="240"/>
+      <wait time="10"/>
+      <command name="firew" x="336" y="240"/>
+      <command name="ring" x="336" y="240"/>
+      <wait time="10"/>
+      <command name="fires" x="336" y="240"/>
+      <jumpto script="level11loop"/>
+    </script>    
+    <script name="level11">
+      <command name="sc_bg" text="949494"/>
+      <command name="sc_1r" text="CAC024"/>
+      <command name="sc_2r" text="D13E0B"/>
+      <command name="sc_3r" text="2B3AAD"/>
+      <command name="sc_1f" text="DAD034"/>
+      <command name="sc_2f" text="E14E1B"/>
+      <command name="sc_3f" text="3B4ABD"/>
+
+      <command name="nextlevel" text="level12"/>
+      <command name="player" x="336" y="432"/>
+      <command name="morgen-ape" x="624" y="48"/>
+      <command name="morgen-ape" x="48" y="48"/>
+      <command name="morgen-robot" x="624" y="432"/>
+      <command name="morgen-robot" x="48" y="432"/>
+      <spawn script="level11robot_loop"/>
+      <spawn script="level11loop"/>
+    </script>
+    <script name="level12loop">
+      <wait time="60"/>
+      <command name="ring" x="496" y="144"/>
+      <wait time="10"/>
+      <command name="firee" x="496" y="144"/>
+      <command name="ring" x="496" y="144"/>
+      <wait time="10"/>
+      <command name="firen" x="496" y="144"/>
+      <command name="ring" x="496" y="144"/>
+      <wait time="10"/>
+      <command name="firew" x="496" y="144"/>
+      <command name="ring" x="496" y="144"/>
+      <wait time="10"/>
+      <command name="fires" x="496" y="144"/>
+      <jumpto script="level12loop"/>
+    </script>    
+    <script name="level12robot_loop">
+      <wait time="70"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="48" y="48"/>
+      <wait time="70"/>
+      <command name="ring" x="944" y="48"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="944" y="48"/>
+      <jumpto script="level12robot_loop"/>
+    </script>
+    <script name="level12">
+      <command name="sc_bg" text="5F7F69"/>
+      <command name="sc_1r" text="9c3612"/>
+      <command name="sc_2r" text="968f20"/>
+      <command name="sc_3r" text="2b7b2d"/>
+      <command name="animation moon" x="152" y="323"/>
+      <command name="animation stones" x="628" y="478"/>
+      <command name="animation stones" x="718" y="482"/>
+      <command name="animation stars" x="120" y="245"/>
+      <command name="animation stars" x="40" y="275"/>
+
+      <command name="nextlevel" text="level13"/>
+      <command name="player" x="496" y="368"/>
+      <command name="stop_watch" x="496" y="144"/>
+      <command name="stop_watch" x="848" y="112"/>
+      <command name="stop_watch" x="144" y="112"/>
+
+      <command name="morgen-ape" x="48" y="48"/>
+      <command name="morgen-ape" x="944" y="48"/>
+      <command name="morgen-ape" x="240" y="304"/>
+      <command name="morgen-ape" x="752" y="304"/>
+      <command name="morgen-ape" x="496" y="496"/>
+
+      <spawn script="level12loop"/>
+      <spawn script="level12robot_loop"/>
+
+    </script>
+    <script name="level13robot_loop">
+      <wait time="50"/>
+      <command name="ring" x="304" y="272"/>
+      <wait time="10"/>
+      <command name="robot" x="304" y="272"/>
+      <wait time="50"/>
+      <command name="ring" x="304" y="272"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="304" y="272"/>
+      <jumpto script="level13robot_loop"/>
+    </script>
+    <script name="level13loop">
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="30"/>
+      <command name="ring" x="560" y="496"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="496"/>
+      <wait time="30"/>
+      <jumpto script="level13loop"/>
+    </script>    
+    <script name="level13">
+      <command name="player" x="304" y="272"/>
+      <command name="morgen-ape" x="48" y="272"/>
+      <command name="morgen-ape" x="560" y="272"/>
+      <command name="morgen-ape" x="304" y="48"/>
+      <command name="morgen-ape" x="304" y="496"/>
+      <command name="stop_watch" x="304" y="48"/>
+      <command name="stop_watch" x="304" y="496"/>
+      <command name="nextlevel" text="level14"/>
+      <command name="animation fish" x="90" y="490"/>
+      <command name="animation waves" x="520" y="70"/>
+
+      <command name="sc_bg" text="8786B4"/>
+      <command name="sc_1r" text="9c3612"/>
+      <command name="sc_2r" text="968f20"/>
+      <command name="sc_3r" text="2b7b2d"/>
+
+      <spawn script="level13loop"/>
+      <spawn script="level13robot_loop"/>
+    </script>
+
+
+    <script name="level14loop">
+      <wait time="20"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="20"/>
+      <command name="ring" x="624" y="48"/>
+      <wait time="10"/>
+      <command name="firen" x="624" y="48"/>
+      <wait time="20"/>
+      <command name="ring" x="624" y="624"/>
+      <wait time="10"/>
+      <command name="firew" x="624" y="624"/>
+      <wait time="20"/>
+      <command name="ring" x="48" y="624"/>
+      <wait time="10"/>
+      <command name="fires" x="48" y="624"/>
+      <jumpto script="level14loop"/>
+    </script>    
+    <script name="level14">
+      <command name="animation stars" x="356" y="550"/>
+      <command name="animation stars" x="316" y="600"/>
+      <command name="animation tree" x="336" y="100"/>
+      <command name="sc_bg" text="8080a0"/>
+      <command name="sc_1r" text="aAaAca"/>
+      <command name="sc_2r" text="616181"/>
+      <command name="sc_3r" text="3C3C5C"/>
+      <command name="sc_1f" text="CACAe8"/>
+      <command name="sc_2f" text="8181a1"/>
+      <command name="sc_3f" text="5C5C7C"/>
+      <command name="nextlevel" text="level15"/>
+      <command name="player" x="336" y="336"/>
+      <command name="morgen-robot" x="176" y="336"/>
+      <command name="morgen-robot" x="496" y="336"/>
+      <command name="morgen-robot" x="336" y="176"/>
+      <command name="morgen-robot" x="336" y="496"/>
+      <command name="morgen-ape" x="48" y="48"/>
+      <command name="morgen-ape" x="624" y="48"/>
+      <command name="morgen-ape" x="624" y="624"/>
+      <command name="morgen-ape" x="48" y="624"/>
+      <command name="stop_watch" x="336" y="176"/>
+      <command name="stop_watch" x="336" y="496"/>
+      <spawn script="level14loop"/>
+    </script>
+
+    <script name="level15robot_loop">
+      <wait time="150"/>
+      <command name="ring" x="304" y="208"/>
+      <wait time="10"/>
+      <command name="robot" x="304" y="208"/>
+      <command name="ring" x="304" y="208"/>
+      <wait time="10"/>
+      <command name="fish" x="304" y="208"/>
+      <command name="ring" x="304" y="208"/>
+      <wait time="10"/>
+      <command name="morgen-robot" x="304" y="208"/>
+      <jumpto script="level15robot_loop"/>
+    </script>
+    <script name="level15loop">
+      <wait time="60"/>
+      <command name="ring" x="48" y="112"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="112"/>
+      <command name="ring" x="48" y="112"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="112"/>
+      <wait time="60"/>
+      <command name="ring" x="560" y="304"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="304"/>
+      <command name="ring" x="560" y="304"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="304"/>
+      <jumpto script="level15loop"/>
+    </script>    
+    <script name="level15">
+      <command name="nextlevel" text="level16"/>
+      <command name="player" x="304" y="208"/>
+      <command name="morgen-ape" x="48" y="400"/>
+      <command name="morgen-ape" x="560" y="48"/>
+      <command name="stop_watch" x="304" y="112"/>
+      <command name="stop_watch" x="304" y="336"/>
+      <command name="sc_bg" text="909284"/>
+      <command name="sc_c1f" text="5c7eb6"/>
+      <command name="sc_c1r" text="7da7d7"/>
+      <command name="animation stars" x="112" y="58"/>
+      <command name="animation plant" x="550" y="365"/>
+      <command name="animation plant" x="482" y="365"/>
+      <spawn script="level15loop"/>
+      <spawn script="level15robot_loop"/>
+    </script>
+    <script name="level16loop">
+      <wait time="40"/>
+      <command name="ring" x="48" y="48"/>
+      <wait time="10"/>
+      <command name="firee" x="48" y="48"/>
+      <wait time="40"/>
+      <command name="ring" x="560" y="432"/>
+      <wait time="10"/>
+      <command name="firew" x="560" y="432"/>
+      <jumpto script="level16loop"/>
+    </script>    
+    <script name="level16robot_loop">
+    </script>
+    <script name="level16">
+      <command name="sc_bg" text="BDBD97"/>
+      <command name="sc_1r" text="9D4729"/>
+      <command name="sc_2r" text="86823C"/>
+      <command name="sc_3r" text="467447"/>
+      <command name="sc_1f" text="AD5739"/>
+      <command name="sc_2f" text="96924C"/>
+      <command name="sc_3f" text="568457"/>
+      <command name="nextlevel" text="level1"/>
+      <command name="player" x="304" y="240"/>
+      <command name="animation scream" x="94" y="366"/>
+      <command name="animation scream" x="164" y="366"/>
+      <command name="morgen-ape" x="48" y="80"/>
+      <command name="morgen-ape" x="80" y="48"/>
+
+      <command name="morgen-ape" x="528" y="48"/>
+      <command name="morgen-ape" x="560" y="80"/>
+
+      <command name="morgen-ape" x="560" y="400"/>
+      <command name="morgen-ape" x="528" y="432"/>
+
+      <command name="morgen-ape" x="240" y="400"/>
+      <command name="morgen-ape" x="272" y="432"/>
+
+      <command name="stop_watch" x="48" y="48"/>
+      <command name="stop_watch" x="560" y="432"/>
+      <command name="stop_watch" x="560" y="48"/>
+      <command name="stop_watch" x="240" y="432"/>
+
+      <spawn script="level16robot_loop"/>
+      <spawn script="level16loop"/>
+    </script>
+  </scripts>
+  <mazes>
+    <maze name="level1">
+      <b d="wwwwwwwwwwwwwww"/>
+      <b d="w.............w"/>
+      <b d="w.qqq.www.eee.w"/>
+      <b d="w.....www.....w"/>
+      <b d="w.qqq.www.eee.w"/>
+      <b d="w.qqq.....eee.w"/>
+      <b d="w.....www.eee.w"/>
+      <b d="w.qqq.....eee.w"/>
+      <b d="w.qqq.www.eee.w"/>
+      <b d="w.............w"/>
+      <b d="wwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level2">
+      <b d="wwwwwwwwwwwwwww    "/>
+      <b d="w.............w    "/>
+      <b d="w.eee.www.qqq.w    "/>
+      <b d="w.eee.....qqq.wwwww"/>
+      <b d="w.eee.www.qqq.....w"/>
+      <b d="w.....www.qqq.eee.w"/>
+      <b d="w.eee.........eee.w"/>
+      <b d="w.eee.qqq.www.....w"/>
+      <b d="w.....qqq.www.eee.w"/>
+      <b d="wwwww.qqq.....eee.w"/>
+      <b d="    w.qqq.www.eee.w"/>
+      <b d="    w.qqq.www.eee.w"/>
+      <b d="    w.............w"/>
+      <b d="    wwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level3">
+      <b d="wwwwwwwwwwwwwww    "/>
+      <b d="w.............w    "/>
+      <b d="w.qqq.www.eee.w    "/>
+      <b d="w.qqq.www.eee.wwwww"/>
+      <b d="w.qqq.www.........w"/>
+      <b d="w.........eeee.ww.w"/>
+      <b d="w.ww.qqqq.eeee.ww.w"/>
+      <b d="w.ww.qqqq.eeee.ww.w"/>
+      <b d="w.................w"/>
+      <b d="w.ee.wwww.wwww.qq.w"/>
+      <b d="w.ee.wwww.wwww.qq.w"/>
+      <b d="w.ee.wwww.........w"/>
+      <b d="w.........www.eee.w"/>
+      <b d="wwwww.qqq.www.eee.w"/>
+      <b d="    w.qqq.www.eee.w"/>
+      <b d="    w.............w"/>
+      <b d="    wwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level4">
+      <b d="    wwwwwwwwwww      "/>
+      <b d="    w.........w      "/>
+      <b d="    w.www.eee.w      "/>
+      <b d="    w.www.....w      "/>
+      <b d="    w.www.eee.w      "/>
+      <b d="wwwww.www.....w      "/>
+      <b d="w.....www.eee.wwwwwww"/>
+      <b d="w.qqq.....eee.......w"/>
+      <b d="w.qqq.www.eee.www.e.w"/>
+      <b d="w.....www.eee.www.e.w"/>
+      <b d="w.qqq.........www.e.w"/>
+      <b d="w.qqq.www.eee.....e.w"/>
+      <b d="w.....www.eee.qqq.e.w"/>
+      <b d="wwwww.www.eee.qqq.e.w"/>
+      <b d="    w...............w"/>
+      <b d="    wwwwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level5">
+      <b d="wwwwwwwww   wwwwwwwww"/>
+      <b d="w.......w   w.......w"/>
+      <b d="w.qq.ww.w   w.ww.ee.w"/>
+      <b d="w.qq.ww.w   w.ww.ee.w"/>
+      <b d="w....ww.wwwww.ww....w"/>
+      <b d="w.wwwww.......wwwww.w"/>
+      <b d="w.wwwww.qqqqq.wwwww.w"/>
+      <b d="w...................w"/>
+      <b d="wwwww.e.qq.ee.q.wwwww"/>
+      <b d="    w.e.qq.ee.q.w    "/>
+      <b d="    w.e.......q.w    "/>
+      <b d="    w.e.ee.qq.q.w    "/>
+      <b d="wwwww.e.ee.qq.q.wwwww"/>
+      <b d="w...................w"/>
+      <b d="w.wwwww.eeeee.wwwww.w"/>
+      <b d="w.wwwww.......wwwww.w"/>
+      <b d="w....ww.wwwww.ww....w"/>
+      <b d="w.ee.ww.w   w.ww.qq.w"/>
+      <b d="w.ee.ww.w   w.ww.qq.w"/>
+      <b d="w.......w   w.......w"/>
+      <b d="wwwwwwwww   wwwwwwwww"/>
+    </maze>
+    <maze name="level6">
+      <b d="wwwwwww     wwwwwww"/>
+      <b d="w.....w     w.....w"/>
+      <b d="w.e.w.wwwwwww.qqq.w"/>
+      <b d="w.............qqq.w"/>
+      <b d="w.qqq.w.e.w.qqq...w"/>
+      <b d="w.qqq.......qqq.www"/>
+      <b d="w.qqq.e.w.e.qqq.w  "/>
+      <b d="w...............w  "/>
+      <b d="wwwwwww.qqq.e.w.www"/>
+      <b d="      w.qqq.......w"/>
+      <b d="      w.....w.e.w.w"/>
+      <b d="      w.qqq.......w"/>
+      <b d="      w.qqq.e.w.e.w"/>
+      <b d="      w...........w"/>
+      <b d="      wwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level7">
+      <b d="            wwwwwww            "/>
+      <b d="            w.....w            "/>
+      <b d="          www.eee.www          "/>
+      <b d="          w...eee...w          "/>
+      <b d="        www.q.eee.q.www        "/>
+      <b d="        w...q.....q...w        "/>
+      <b d="      www.qqqq.e.qqqq.www      "/>
+      <b d="      w.....qq.e.qq.....w      "/>
+      <b d="    www.www.qq.e.qq.www.www    "/>
+      <b d="    w...www.........www...w    "/>
+      <b d="  www.wwwww.eeeeeee.wwwww.www  "/>
+      <b d="  w....wwww.eeeeeee.wwww....w  "/>
+      <b d="www.qq...................qq.www"/>
+      <b d="w...qq.eeee.www.www.eeee.qq...w"/>
+      <b d="w.qqqq.eeee.www.www.eeee.qqqq.w"/>
+      <b d="w.............................w"/>
+      <b d="wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level8">
+      <b d="wwwwwwwwwwwwwww    "/>
+      <b d="w.............w    "/>
+      <b d="w.e.e.w.w.qqq.w    "/>
+      <b d="w.........qqq.wwwww"/>
+      <b d="w.e.e.w.w.qqq.....w"/>
+      <b d="w.....w.w.qqq.eee.w"/>
+      <b d="w.eee.........eee.w"/>
+      <b d="w.eee.qqq.www.....w"/>
+      <b d="w.....qqq.www.e.e.w"/>
+      <b d="wwwww.qqq.....e.e.w"/>
+      <b d="    w.qqq.www.e.e.w"/>
+      <b d="    w.qqq.www.e.e.w"/>
+      <b d="    w.............w"/>
+      <b d="    w.eee.qqq.www.w"/>
+      <b d="    w.eee.qqq.www.w"/>
+      <b d="    w.............w"/>
+      <b d="    www.q.www.eee.w"/>
+      <b d="      w.q.www.eee.w"/>
+      <b d="      w...........w"/>
+      <b d="      wwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level9">
+      <b d="wwwwwwwwwwwwwww"/>
+      <b d="w.............w"/>
+      <b d="w.q.q.www.e.e.w"/>
+      <b d="w.....www.....w"/>
+      <b d="w.q.q.www.e.e.w"/>
+      <b d="w.q.q.....e.e.w"/>
+      <b d="w.....www.e.e.w"/>
+      <b d="w.q.q.....e.e.w"/>
+      <b d="w.q.q.www.e.e.w"/>
+      <b d="w.............w"/>
+      <b d="wwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level10">
+      <b d="      wwwwwww      "></b>
+      <b d="      w.....w      "></b>
+      <b d="      w.qqq.w      "></b>
+      <b d="      w.....w      "></b>
+      <b d="    www.w.w.www    "></b>
+      <b d="    w...w.w...w    "></b>
+      <b d="wwwww.w.....e.wwwww"></b>
+      <b d="w.......e.w.......w"></b>
+      <b d="w.q.ww.ee.ww.ww.q.w"></b>
+      <b d="w.q.............q.w"></b>
+      <b d="w.q.ww.ww.ee.ww.q.w"></b>
+      <b d="w.......w.e.......w"></b>
+      <b d="wwwww.e.....w.wwwww"></b>
+      <b d="    w...w.w...w    "></b>
+      <b d="    www.w.w.www    "></b>
+      <b d="      w.....w      "></b>
+      <b d="      w.qqq.w      "></b>
+      <b d="      w.....w      "></b>
+      <b d="      wwwwwww      "></b>
+    </maze>
+    <maze name="level11">
+      <b d="wwwwwwwwwwwwwwwwwwwww"/>
+      <b d="w...................w"/>
+      <b d="w.ee.ww.eeeee.ww.ee.w"/>
+      <b d="w.ee.ww.eeeee.ww.ee.w"/>
+      <b d="w...................w"/>
+      <b d="w.qq.ww.ww.qq.ww.qq.w"/>
+      <b d="w.qq.ww.ww.qq.ww.qq.w"/>
+      <b d="w.qq.............qq.w"/>
+      <b d="w.qq.ww.qq.ww.ww.qq.w"/>
+      <b d="w.qq.ww.qq.ww.ww.qq.w"/>
+      <b d="w...................w"/>
+      <b d="w.ee.ww.eeeee.ww.ee.w"/>
+      <b d="w.ee.ww.eeeee.ww.ee.w"/>
+      <b d="w...................w"/>
+      <b d="wwwwwwwwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level12">
+      <b d="wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"/>
+      <b d="w.............................w"/>
+      <b d="w.q.qq.e.ee.www.www.ee.e.qq.q.w"/>
+      <b d="w......e.ee.www.www.ee.e......w"/>
+      <b d="www.qq...................qq.www"/>
+      <b d="  w....ww.w.ee.e.ee.w.ww....w  "/>
+      <b d="  www.www.w.ee.e.ee.w.www.www  "/>
+      <b d="    w.....w.........w.....w    "/>
+      <b d="    www.www.qq.e.qq.www.www    "/>
+      <b d="      w.....qq...qq.....w      "/>
+      <b d="      www.q.qq.e.qq.q.www      "/>
+      <b d="        w.............w        "/>
+      <b d="        www.q.eee.q.www        "/>
+      <b d="          w.........w          "/>
+      <b d="          www.e.e.www          "/>
+      <b d="            w.....w            "/>
+      <b d="            wwwwwww            "/>
+    </maze>
+    <maze name="level13">
+      <b d="wwwwwwwwwwwwwww    "/>
+      <b d="w.............w    "/>
+      <b d="w.qqq.www.eee.w    "/>
+      <b d="w.qqq.www.eee.wwwww"/>
+      <b d="w.qqq.www.........w"/>
+      <b d="w.........e.ee.ww.w"/>
+      <b d="w.ww.qq.q......ww.w"/>
+      <b d="w.ww.qq.q.e.ee.ww.w"/>
+      <b d="w.................w"/>
+      <b d="w.ee.ww.w.w.ww.qq.w"/>
+      <b d="w.ee......w.ww.qq.w"/>
+      <b d="w.ee.ww.w.........w"/>
+      <b d="w.........www.eee.w"/>
+      <b d="wwwww.qqq.www.eee.w"/>
+      <b d="    w.qqq.www.eee.w"/>
+      <b d="    w.............w"/>
+      <b d="    wwwwwwwwwwwwwww"/>
+    </maze>
+    <maze name="level14">
+      <b d="wwwwwwwww   wwwwwwwww"/>
+      <b d="w.......w   w.......w"/>
+      <b d="w.qq.ww.w   w.ww.ee.w"/>
+      <b d="w.qq.ww.w   w.ww.ee.w"/>
+      <b d="w.......wwwww.......w"/>
+      <b d="w.ww.ww.......ww.ww.w"/>
+      <b d="w.ww.ww.qqqqq.ww.ww.w"/>
+      <b d="w...................w"/>
+      <b d="wwwww.e.qq.ee.q.wwwww"/>
+      <b d="    w.e.qq.ee.q.w    "/>
+      <b d="    w.e.......q.w    "/>
+      <b d="    w.e.ee.qq.q.w    "/>
+      <b d="wwwww.e.ee.qq.q.wwwww"/>
+      <b d="w...................w"/>
+      <b d="w.ww.ww.eeeee.ww.ww.w"/>
+      <b d="w.ww.ww.......ww.ww.w"/>
+      <b d="w.......wwwww.......w"/>
+      <b d="w.ee.ww.w   w.ww.qq.w"/>
+      <b d="w.ee.ww.w   w.ww.qq.w"/>
+      <b d="w.......w   w.......w"/>
+      <b d="wwwwwwwww   wwwwwwwww"/>
+    </maze>
+    <maze name="level15">
+      <b d="    wwwwwwwwwwwwwww"/>
+      <b d="    w.............w"/>
+      <b d="wwwww.www.qqq.w.w.w"/>
+      <b d="w.........qqq.w.w.w"/>
+      <b d="w.e.e.w.w.........w"/>
+      <b d="w.....w.w.qqq.e.e.w"/>
+      <b d="w.eee.............w"/>
+      <b d="w.eee.q.q.www.e.e.w"/>
+      <b d="w.........www.e.e.w"/>
+      <b d="w.w.w.q.q.........w"/>
+      <b d="w.........www.wwwww"/>
+      <b d="w.w.w.qqq.www.w    "/>
+      <b d="w.............w    "/>
+      <b d="wwwwwwwwwwwwwww    "/>
+    </maze>
+    <maze name="level16">
+      <b d="wwwwwww     wwwwwww"/>
+      <b d="w.....w     w.....w"/>
+      <b d="w.e.w.wwwwwww.qqq.w"/>
+      <b d="w.............qqq.w"/>
+      <b d="w.qqq.w.e.w.qqq...w"/>
+      <b d="w.qqq.......qqq.www"/>
+      <b d="w.qqq.e.w.e.qqq.w  "/>
+      <b d="w...............w  "/>
+      <b d="wwwwwww.qqq.e.w.www"/>
+      <b d="      w.qqq.......w"/>
+      <b d="      w.....w.e.w.w"/>
+      <b d="      w.qqq.......w"/>
+      <b d="      w.qqq.e.w.e.w"/>
+      <b d="      w...........w"/>
+      <b d="      wwwwwwwwwwwww"/>
+    </maze>
+  </mazes>
+</SJGame>

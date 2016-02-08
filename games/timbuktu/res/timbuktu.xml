@@ -1,0 +1,929 @@
+<?xml version="1.0" standalone="yes"?>
+<SJGame>
+    <tracks>
+        <track name="die">o - c 0 f 220 l 0.6 v 0.1 w sine e ping w2 sine f2 55.25 v2 0.9 e2 ping q 0.2 u 5000 C3 1 u
+            4000 A 1 u 3000 C3 4 u 2000 B 4 l 1.6 u 1500 A 4
+        </track>
+        <track name="blop">o - c 2 f 220 l 0.1 v 0.03 u 4000 w saw e ping C3 1</track>
+        <track name="intro">o - c 2 f 220 l 0.6 v 0.1 w sine e ping w2 sine f2 110.5 e2 ping u 2000 q 1 v2 0.6 A 3 A 1
+            C3 3 C3 1 v2 0.5 D3 3 D3 1 v2 0.4 E3 6
+        </track>
+        <track name="point">o - c 2 f 440 l 0.2 v 0.2 w sine e ping C 1 D 1</track>
+        <track name="find-exit">o - c 2 f 440 l 0.2 v 0.2 w sine e ping C 1 D 1 C 2 D 2</track>
+        <track name="completion">o - c 0 f 440 l 0.6 v 0.1 w sine e ping w2 sine f2 221 v2 0.9 e2 ping u 2000 q 1 C 2 D
+            2 C 2 E 2
+        </track>
+        <track name="star">o - c 3 f 440 l 0.05 v 0.03 w noise u 0 e ping C 1</track>
+        <track name="bassline-1">o + c 0 f 110 l 0.2 v 0.2 w sine e ping w2 sine v2 0.0 f 110 e2 ping u 4000 q 1 C 2 C3
+            1 G 1 C 2 C3 1 G 1 C 2 C3 1 G 1 C 1 C 1 G 1 C3 1
+        </track>
+        <track name="bassline-1-exit">o + c 0 f 110 l 0.1 v 0.02 w noise e ping u 3000 q 0.5 C 4 C3 4 C 4 C3 4 C 4 C3 3
+            C3 1 C 4 C3 4
+        </track>
+        <track name="bassline-2">o + c 1 f 110 l 0.2 v 0.2 w sine e ping w2 sine v2 0.0 f 110 e2 ping u 4000 q 1 E 4 E3
+            4 E 1 E3 3 E3 4 F 4 F3 3 F3 1 F 1 F3 3 F3 4 E 4 E3 4 E 1 E3 3 E3 4 G 4 G3 3 G3 1 G 1 G3 3 G3 4
+        </track>
+        <track name="bassline-2-exit">o + c 1 f 220 l 0.08 v 0.02 w noise e ping f2 120 v2 1.0 w2 noise e2 ping q 0.5 u
+            4000 C3 1 v 0.01 C3 1 v 0.02 u 3500 C 1 v 0.01 C3 1 u 3000 C3 1 v 0.01 C3 1 v 0.02 u 2900 C 1 v 0.01 C3 1 u
+            2700 C3 1 v 0.01 C3 1 v 0.02 u 2450 C 1 v 0.01 C3 1 u 2250 C3 1 v 0.01 C3 1 v 0.02 u 2150 C 1 v 0.01 C3 1 u
+            2100 C3 1 v 0.01 C3 1 v 0.02 u 2150 C 1 v 0.01 C3 1 u 2250 C3 1 v 0.01 C3 1 v 0.02 u 2450 C 1 v 0.01 C3 1 u
+            2700 C3 1 v 0.01 C3 1 v 0.02 u 2900 C 1 v 0.01 C3 1 u 3000 C3 1 v 0.01 C3 1 v 0.02 u 3500 C 1 v 0.01 C3 1
+        </track>
+    </tracks>
+    <frames web="timbuktu.gif">
+        <frame name="shieldbonus" x="320" y="374" width="35" height="9"/>
+        <frame name="weaponbonus" x="320" y="388" width="42" height="9"/>
+
+        <frame name="uhyre1" x="0" y="0" width="16" height="16"/>
+        <frame name="uhyre2" x="16" y="0" width="16" height="16"/>
+        <frame name="uhyre3" x="32" y="0" width="16" height="16"/>
+        <frame name="uhyre4" x="48" y="0" width="16" height="16"/>
+
+        <frame name="cuckoo1" x="0" y="216" width="21" height="23"/>
+        <frame name="cuckoo2" x="22" y="216" width="21" height="23"/>
+        <frame name="cuckoo3" x="44" y="216" width="21" height="23"/>
+
+        <frame name="rumskib1" x="0" y="152" width="32" height="24"/>
+        <frame name="rumskib2" x="350" y="15" width="32" height="24"/>
+        <frame name="rumskib3" x="350" y="46" width="32" height="24"/>
+        <frame name="rumskib4" x="96" y="262" width="32" height="24"/>
+
+        <frame name="bombe1" x="32" y="20" width="6" height="12"/>
+        <frame name="bombe2" x="38" y="20" width="6" height="12"/>
+        <frame name="bombe3" x="44" y="20" width="6" height="12"/>
+
+        <frame name="cannon11" x="96" y="160" width="8" height="17"/>
+        <frame name="cannon12" x="104" y="160" width="8" height="17"/>
+        <frame name="cannon13" x="112" y="160" width="8" height="17"/>
+        <frame name="cannon14" x="120" y="160" width="8" height="17"/>
+
+        <frame name="logo" x="0" y="33" width="318" height="79"/>
+
+        <frame name="meteor1" x="0" y="200" width="14" height="14"/>
+        <frame name="meteor2" x="14" y="200" width="14" height="14"/>
+        <frame name="meteor3" x="28" y="200" width="14" height="14"/>
+        <frame name="meteor4" x="42" y="200" width="14" height="14"/>
+
+        <frame name="red1" x="302" y="354" width="13" height="13"/>
+        <frame name="red2" x="319" y="354" width="13" height="13"/>
+        <frame name="red3" x="337" y="354" width="13" height="13"/>
+        <frame name="red4" x="354" y="354" width="13" height="13"/>
+
+        <frame name="circler1" x="44" y="158" width="11" height="11"/>
+        <frame name="circler2" x="56" y="158" width="11" height="11"/>
+        <frame name="circler3" x="68" y="158" width="11" height="11"/>
+        <frame name="circler4" x="80" y="158" width="11" height="11"/>
+
+        <frame name="ugly1" x="190" y="4" width="29" height="27"/>
+        <frame name="ugly2" x="220" y="4" width="29" height="27"/>
+        <frame name="ugly3" x="250" y="4" width="29" height="27"/>
+
+        <frame name="clickheretostart-up" x="131" y="158" width="267" height="14"/>
+        <frame name="clickheretostart-down" x="131" y="176" width="267" height="14"/>
+        <frame name="gameover" x="204" y="198" width="175" height="35"/>
+
+        <frame name="enemybullet" x="0" y="250" width="4" height="8"/>
+
+        <frame name="life" x="140" y="120" width="8" height="12"/>
+        <frame name="nolife" x="148" y="120" width="8" height="12"/>
+
+        <frame name="saucer1" x="2" y="307" width="27" height="5"/>
+        <frame name="saucer2" x="2" y="314" width="27" height="5"/>
+        <frame name="saucer3" x="2" y="321" width="27" height="5"/>
+        <frame name="saucer4" x="2" y="328" width="27" height="5"/>
+
+        <frame name="smiley1" x="0" y="340" width="28" height="28"/>
+        <frame name="smiley2" x="28" y="340" width="28" height="28"/>
+        <frame name="smiley3" x="56" y="340" width="28" height="28"/>
+        <frame name="smiley4" x="84" y="340" width="28" height="28"/>
+
+        <frame name="gadget1" x="158" y="300" width="21" height="11"/>
+        <frame name="gadget2" x="158" y="311" width="21" height="11"/>
+        <frame name="gadget3" x="158" y="322" width="21" height="11"/>
+        <frame name="gadget4" x="158" y="333" width="21" height="11"/>
+
+        <frame name="silver1" x="193" y="288" width="27" height="21"/>
+        <frame name="silver2" x="193" y="309" width="27" height="21"/>
+        <frame name="silver3" x="193" y="330" width="27" height="21"/>
+        <frame name="silver4" x="193" y="351" width="27" height="21"/>
+
+        <frame name="snake1" x="0" y="380" width="26" height="14"/>
+        <frame name="snake2" x="28" y="380" width="26" height="14"/>
+        <frame name="snake3" x="56" y="380" width="26" height="14"/>
+        <frame name="snake4" x="84" y="380" width="26" height="14"/>
+        <frame name="snake5" x="112" y="380" width="26" height="14"/>
+        <frame name="snake6" x="140" y="380" width="26" height="14"/>
+        <frame name="snake7" x="168" y="380" width="26" height="14"/>
+        <frame name="snake8" x="196" y="380" width="26" height="14"/>
+        <frame name="snake9" x="224" y="380" width="26" height="14"/>
+        <frame name="snake10" x="252" y="380" width="26" height="14"/>
+        <frame name="snake11" x="280" y="380" width="26" height="14"/>
+
+        <frame name="gold1" x="243" y="288" width="27" height="21"/>
+        <frame name="gold2" x="243" y="309" width="27" height="21"/>
+        <frame name="gold3" x="243" y="330" width="27" height="21"/>
+        <frame name="gold4" x="243" y="351" width="27" height="21"/>
+
+        <frame name="L0" x="200" y="132" width="10" height="18"/>
+        <frame name="L1" x="213" y="132" width="7" height="18"/>
+        <frame name="L2" x="223" y="132" width="10" height="18"/>
+        <frame name="L3" x="236" y="132" width="10" height="18"/>
+        <frame name="L4" x="249" y="132" width="12" height="18"/>
+        <frame name="L5" x="263" y="132" width="10" height="18"/>
+        <frame name="L6" x="276" y="132" width="10" height="18"/>
+        <frame name="L7" x="289" y="132" width="10" height="18"/>
+        <frame name="L8" x="302" y="132" width="10" height="18"/>
+        <frame name="L9" x="315" y="132" width="10" height="18"/>
+
+        <frame name="heart" x="150" y="142" width="16" height="12"/>
+
+        <frame name="flat1" x="128" y="240" width="31" height="31"/>
+        <frame name="flat2" x="160" y="240" width="31" height="31"/>
+        <frame name="flat3" x="192" y="240" width="31" height="31"/>
+        <frame name="flat4" x="224" y="240" width="31" height="31"/>
+
+        <frame name="0" x="0" y="380" width="8" height="10"/>
+        <frame name="1" x="8" y="380" width="8" height="10"/>
+        <frame name="2" x="16" y="380" width="8" height="10"/>
+        <frame name="3" x="24" y="380" width="8" height="10"/>
+        <frame name="4" x="32" y="380" width="8" height="10"/>
+        <frame name="5" x="40" y="380" width="8" height="10"/>
+        <frame name="6" x="48" y="380" width="8" height="10"/>
+        <frame name="7" x="56" y="380" width="8" height="10"/>
+        <frame name="8" x="64" y="380" width="8" height="10"/>
+        <frame name="9" x="72" y="380" width="8" height="10"/>
+        <frame name="_" x="80" y="380" width="8" height="10"/>
+        <frame name="A" x="88" y="380" width="8" height="10"/>
+        <frame name="B" x="96" y="380" width="8" height="10"/>
+        <frame name="C" x="104" y="380" width="8" height="10"/>
+        <frame name="D" x="112" y="380" width="8" height="10"/>
+        <frame name="E" x="120" y="380" width="8" height="10"/>
+        <frame name="F" x="128" y="380" width="8" height="10"/>
+        <frame name="G" x="136" y="380" width="8" height="10"/>
+        <frame name="H" x="144" y="380" width="8" height="10"/>
+        <frame name="I" x="152" y="380" width="8" height="10"/>
+        <frame name="J" x="160" y="380" width="8" height="10"/>
+        <frame name="K" x="168" y="380" width="8" height="10"/>
+        <frame name="L" x="176" y="380" width="8" height="10"/>
+        <frame name="M" x="184" y="380" width="8" height="10"/>
+        <frame name="N" x="192" y="380" width="8" height="10"/>
+        <frame name="O" x="200" y="380" width="8" height="10"/>
+        <frame name="P" x="208" y="380" width="8" height="10"/>
+        <frame name="Q" x="216" y="380" width="8" height="10"/>
+        <frame name="R" x="224" y="380" width="8" height="10"/>
+        <frame name="S" x="232" y="380" width="8" height="10"/>
+        <frame name="T" x="240" y="380" width="8" height="10"/>
+        <frame name="U" x="248" y="380" width="8" height="10"/>
+        <frame name="V" x="256" y="380" width="8" height="10"/>
+        <frame name="W" x="264" y="380" width="8" height="10"/>
+        <frame name="X" x="272" y="380" width="8" height="10"/>
+        <frame name="Y" x="280" y="380" width="8" height="10"/>
+        <frame name="Z" x="288" y="380" width="8" height="10"/>
+        <frame name=" " x="296" y="380" width="8" height="10"/>
+
+        <frame name="newhiscore" x="1" y="112" width="395" height="17"/>
+
+    </frames>
+    <animations>
+        <animation name="jumper">ugly1 ugly2 ugly3 ugly2 ugly1 ugly1 ugly2 ugly2 ugly3 ugly3 ugly2 ugly2 ugly1
+        </animation>
+        <animation name="zigzagger">cuckoo1 cuckoo2 cuckoo3 cuckoo3 cuckoo2</animation>
+        <animation name="rumskib">rumskib1 rumskib2 rumskib3</animation>
+        <animation name="enemybullet">enemybullet</animation>
+        <animation name="bullet">bombe1 bombe2 bombe3 bombe2</animation>
+        <animation name="circler">circler1 circler2 circler3 circler4</animation>
+        <animation name="cannon" noloop="">cannon11 cannon11 cannon12 cannon12 cannon12 cannon13 cannon13 cannon13
+            cannon14
+        </animation>
+        <animation name="meteor">meteor1 meteor1 meteor2 meteor2 meteor3 meteor3 meteor4 meteor4</animation>
+        <animation name="red">red1 red2 red3 red4</animation>
+        <animation name="saucer">saucer1 saucer2 saucer3 saucer4</animation>
+        <animation name="smiley">smiley1 smiley2 smiley3 smiley4 smiley3 smiley2</animation>
+        <animation name="gadget">gadget1 gadget2 gadget3 gadget4</animation>
+        <animation name="silver">silver1 silver2 silver3 silver4 silver3 silver2</animation>
+        <animation name="gold">gold1 gold2 gold3 gold4 gold3 gold2</animation>
+        <animation name="flat">flat1 flat2 flat3 flat4</animation>
+        <animation name="snake">snake1 snake2 snake3 snake4 snake5 snake6 snake7 snake8 snake9 snake10 snake11
+        </animation>
+        <animation name="shieldbonus">shieldbonus</animation>
+        <animation name="weaponbonus">weaponbonus</animation>
+    </animations>
+    <scripts>
+        <script name="lineofsaucers">
+            <command name="saucer" x="-180" y="0"/>
+            <wait time="5"/>
+            <command name="saucer" x="-205" y="0"/>
+            <wait time="5"/>
+            <command name="saucer" x="-230" y="0"/>
+            <wait time="5"/>
+            <command name="saucer" x="-255" y="0"/>
+            <wait time="5"/>
+            <command name="saucer" x="-280" y="0"/>
+        </script>
+        <script name="lineofsilvers">
+            <command name="silver" x="155" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="85" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="15" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="-55" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="-125" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="-195" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="-265" y="120"/>
+            <wait time="5"/>
+            <command name="silver" x="-335" y="120"/>
+        </script>
+        <script name="lineofgolds">
+            <command name="gold" x="180" y="50"/>
+            <wait time="10"/>
+            <command name="gold" x="140" y="50"/>
+            <wait time="10"/>
+            <command name="gold" x="100" y="50"/>
+            <wait time="10"/>
+            <command name="gold" x="60" y="50"/>
+            <wait time="10"/>
+            <command name="gold" x="20" y="50"/>
+        </script>
+        <script name="bunchofjumpers">
+            <command name="jumper" x="350" y="5"/>
+            <command name="jumper" x="250" y="5"/>
+            <command name="jumper" x="150" y="5"/>
+            <command name="jumper" x="50" y="5"/>
+            <command name="jumper" x="0" y="5"/>
+            <command name="jumper" x="-50" y="5"/>
+            <command name="jumper" x="-150" y="5"/>
+            <command name="jumper" x="-250" y="5"/>
+            <command name="jumper" x="-350" y="5"/>
+        </script>
+        <script name="circlers_left">
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="-200" y="200"/>
+        </script>
+        <script name="double_circlers">
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+            <command name="circler_left" x="0" y="200"/>
+            <command name="circler_right" x="0" y="200"/>
+            <wait time="5"/>
+        </script>
+        <script name="circlers_right">
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+            <wait time="5"/>
+            <command name="circler_right" x="200" y="200"/>
+        </script>
+        <script name="line_of_flats_1">
+            <command name="flat_1" x="-30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_1" x="-30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_1" x="-30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_1" x="-30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_1" x="-30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_1" x="-30" y="250"/>
+            <wait time="5"/>
+        </script>
+        <script name="line_of_flats_-1">
+            <command name="flat_-1" x="30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_-1" x="30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_-1" x="30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_-1" x="30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_-1" x="30" y="250"/>
+            <wait time="5"/>
+            <command name="flat_-1" x="30" y="250"/>
+            <wait time="5"/>
+        </script>
+        <script name="line_of_flats_1.5">
+            <command name="flat_1.5" x="-130" y="250"/>
+            <wait time="5"/>
+            <command name="flat_1.5" x="-130" y="255"/>
+            <wait time="5"/>
+            <command name="flat_1.5" x="-130" y="260"/>
+            <wait time="5"/>
+            <command name="flat_1.5" x="-130" y="265"/>
+            <wait time="5"/>
+            <command name="flat_1.5" x="-130" y="270"/>
+            <wait time="5"/>
+            <command name="flat_1.5" x="-130" y="275"/>
+            <wait time="5"/>
+        </script>
+        <script name="meteor_wave">
+            <command name="meteor" text="330"/>
+            <command name="meteor" text="-330"/>
+            <wait time="5"/>
+            <command name="meteor" text="250"/>
+            <command name="meteor" text="-250"/>
+            <wait time="5"/>
+            <command name="meteor" text="170"/>
+            <command name="meteor" text="-170"/>
+        </script>
+        <script name="meteor_wave_2">
+            <command name="meteor" text="330"/>
+            <command name="meteor" text="-330"/>
+            <wait time="5"/>
+            <command name="meteor" text="280"/>
+            <command name="meteor" text="-280"/>
+            <wait time="5"/>
+            <command name="meteor" text="230"/>
+            <command name="meteor" text="-230"/>
+            <wait time="5"/>
+            <command name="meteor" text="180"/>
+            <command name="meteor" text="-180"/>
+            <wait time="20"/>
+            <jumpto script="meteor_wave"/>
+        </script>
+        <script name="meteor_wave_3">
+            <command name="meteor" text="150"/>
+            <command name="meteor" text="-150"/>
+            <wait time="5"/>
+            <command name="meteor" text="100"/>
+            <command name="meteor" text="-100"/>
+            <wait time="5"/>
+            <command name="meteor" text="50"/>
+            <command name="meteor" text="-50"/>
+        </script>
+        <script name="line_of_flats_-1.5">
+            <command name="flat_-1.5" x="170" y="250"/>
+            <wait time="5"/>
+            <command name="flat_-1.5" x="170" y="255"/>
+            <wait time="5"/>
+            <command name="flat_-1.5" x="170" y="260"/>
+            <wait time="5"/>
+            <command name="flat_-1.5" x="170" y="265"/>
+            <wait time="5"/>
+            <command name="flat_-1.5" x="170" y="270"/>
+            <wait time="5"/>
+            <command name="flat_-1.5" x="170" y="275"/>
+            <wait time="5"/>
+        </script>
+        <script name="level1">
+            <command name="level" text="01"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="20"/>
+            <spawn script="lineofsaucers"/>
+            <spawn script="meteor_wave"/>
+            <wait time="125"/>
+            <jumpto script="level2"/>
+        </script>
+        <script name="level2">
+            <command name="level" text="02"/>
+            <wait time="25"/>
+            <spawn script="double_circlers"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="125"/>
+            <jumpto script="level3"/>
+        </script>
+        <script name="level3">
+            <command name="level" text="03"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="15"/>
+            <spawn script="lineofgolds"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level4"/>
+        </script>
+        <script name="level4">
+            <command name="shield" x="0" y="30"/>
+            <command name="level" text="04"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="lineofgolds"/>
+            <wait time="125"/>
+            <jumpto script="level5"/>
+        </script>
+        <script name="level5">
+            <command name="level" text="05"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="50"/>
+            <spawn script="double_circlers"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level6"/>
+        </script>
+        <script name="level6">
+            <command name="level" text="06"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level7"/>
+        </script>
+        <script name="level7">
+            <command name="level" text="07"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <spawn script="lineofgolds"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level8"/>
+        </script>
+        <script name="level8">
+            <command name="weapon" x="0" y="30"/>
+            <command name="level" text="08"/>
+            <wait time="25"/>
+            <spawn script="double_circlers"/>
+            <wait time="25"/>
+            <spawn script="line_of_flats_1.5"/>
+            <spawn script="line_of_flats_-1.5"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level9"/>
+        </script>
+        <script name="level9">
+            <command name="level" text="09"/>
+            <spawn script="meteor_wave_3"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="20"/>
+            <spawn script="lineofsaucers"/>
+            <spawn script="meteor_wave"/>
+            <wait time="125"/>
+            <jumpto script="level10"/>
+        </script>
+        <script name="level10">
+            <command name="shield" x="0" y="30"/>
+            <command name="level" text="10"/>
+            <spawn script="meteor_wave_3"/>
+            <wait time="25"/>
+            <spawn script="double_circlers"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <spawn script="line_of_flats_1.5"/>
+            <spawn script="line_of_flats_-1.5"/>
+            <wait time="75"/>
+            <jumpto script="level11"/>
+        </script>
+        <script name="level11">
+            <command name="level" text="11"/>
+            <spawn script="meteor_wave_3"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="15"/>
+            <spawn script="lineofgolds"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level12"/>
+        </script>
+        <script name="level12">
+            <command name="weapon" x="0" y="30"/>
+            <command name="level" text="12"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="75"/>
+            <jumpto script="level13"/>
+        </script>
+        <script name="level13">
+            <command name="level" text="13"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="50"/>
+            <spawn script="double_circlers"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level14"/>
+        </script>
+        <script name="level14">
+            <command name="weapon" x="0" y="30"/>
+            <command name="level" text="14"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="25"/>
+            <spawn script="line_of_flats_1"/>
+            <spawn script="line_of_flats_-1"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level15"/>
+        </script>
+        <script name="level15">
+            <command name="level" text="15"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <spawn script="lineofgolds"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level16"/>
+        </script>
+        <script name="level16">
+            <command name="shield" x="0" y="30"/>
+            <spawn script="meteor_wave_2"/>
+            <command name="level" text="16"/>
+            <wait time="25"/>
+            <spawn script="double_circlers"/>
+            <wait time="25"/>
+            <spawn script="line_of_flats_1.5"/>
+            <spawn script="line_of_flats_-1.5"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level17"/>
+        </script>
+        <script name="level17">
+            <command name="weapon" x="0" y="30"/>
+            <command name="level" text="17"/>
+            <wait time="10"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="10"/>
+            <spawn script="lineofsaucers"/>
+            <spawn script="meteor_wave"/>
+            <wait time="50"/>
+            <jumpto script="level18"/>
+        </script>
+        <script name="level18">
+            <command name="shield" x="0" y="30"/>
+            <command name="level" text="18"/>
+            <wait time="10"/>
+            <spawn script="double_circlers"/>
+            <spawn script="lineofsilvers"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <jumpto script="level19"/>
+        </script>
+        <script name="level19">
+            <command name="level" text="19"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="10"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="5"/>
+            <spawn script="lineofgolds"/>
+            <wait time="50"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level20"/>
+        </script>
+        <script name="level20">
+            <command name="level" text="20"/>
+            <wait time="5"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="20"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <jumpto script="level21"/>
+        </script>
+        <script name="level21">
+            <command name="level" text="21"/>
+            <command name="shield" x="0" y="30"/>
+            <spawn script="meteor_wave_3"/>
+            <spawn script="double_circlers"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="15"/>
+            <spawn script="lineofgolds"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level22"/>
+        </script>
+        <script name="level22">
+            <command name="level" text="22"/>
+            <command name="weapon" x="0" y="30"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="75"/>
+            <jumpto script="level23"/>
+        </script>
+        <script name="level23">
+            <command name="level" text="23"/>
+            <spawn script="meteor_wave"/>
+            <wait time="25"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="50"/>
+            <spawn script="double_circlers"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level24"/>
+        </script>
+        <script name="level24">
+            <command name="shield" x="0" y="30"/>
+            <command name="level" text="24"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="line_of_flats_1"/>
+            <spawn script="line_of_flats_-1"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level25"/>
+        </script>
+        <script name="level25">
+            <command name="level" text="25"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <spawn script="lineofgolds"/>
+            <wait time="25"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <jumpto script="level26"/>
+        </script>
+        <script name="level26">
+            <command name="weapon" x="0" y="30"/>
+            <spawn script="meteor_wave_2"/>
+            <command name="level" text="26"/>
+            <wait time="25"/>
+            <spawn script="double_circlers"/>
+            <wait time="25"/>
+            <spawn script="line_of_flats_1.5"/>
+            <spawn script="line_of_flats_-1.5"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level27"/>
+        </script>
+        <script name="level27">
+            <command name="level" text="27"/>
+            <command name="shield" x="0" y="30"/>
+            <wait time="10"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="10"/>
+            <spawn script="lineofsaucers"/>
+            <spawn script="meteor_wave"/>
+            <wait time="50"/>
+            <jumpto script="level28"/>
+        </script>
+        <script name="level28">
+            <command name="weapon" x="0" y="30"/>
+            <command name="level" text="28"/>
+            <wait time="10"/>
+            <spawn script="double_circlers"/>
+            <spawn script="lineofsilvers"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <jumpto script="level29"/>
+        </script>
+        <script name="level29">
+            <command name="level" text="29"/>
+            <command name="shield" x="0" y="30"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="10"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="5"/>
+            <spawn script="lineofgolds"/>
+            <wait time="50"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level30"/>
+        </script>
+        <script name="level30">
+            <command name="level" text="30"/>
+            <wait time="5"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="20"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <spawn script="lineofsilvers"/>
+            <spawn script="meteor_wave"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <spawn script="lineofgolds"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="75"/>
+            <jumpto script="level31"/>
+        </script>
+        <script name="level31">
+            <command name="level" text="31"/>
+            <spawn script="meteor_wave_3"/>
+            <spawn script="double_circlers"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="15"/>
+            <spawn script="lineofgolds"/>
+            <wait time="75"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level32"/>
+        </script>
+        <script name="level32">
+            <command name="level" text="32"/>
+            <command name="weapon" x="0" y="30"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="75"/>
+            <jumpto script="level33"/>
+        </script>
+        <script name="level33">
+            <command name="level" text="33"/>
+            <spawn script="meteor_wave"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="50"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="50"/>
+            <spawn script="double_circlers"/>
+            <wait time="75"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level34"/>
+        </script>
+        <script name="level34">
+            <command name="shield" x="0" y="30"/>
+            <command name="level" text="34"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="line_of_flats_1"/>
+            <spawn script="line_of_flats_-1"/>
+            <wait time="75"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level35"/>
+        </script>
+        <script name="level35">
+            <command name="level" text="35"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <spawn script="lineofgolds"/>
+            <wait time="25"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="25"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="25"/>
+            <jumpto script="level36"/>
+        </script>
+        <script name="level36">
+            <command name="weapon" x="0" y="30"/>
+            <spawn script="meteor_wave_2"/>
+            <command name="level" text="36"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="double_circlers"/>
+            <wait time="25"/>
+            <spawn script="line_of_flats_1.5"/>
+            <spawn script="line_of_flats_-1.5"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="125"/>
+            <spawn script="meteor_wave_2"/>
+            <jumpto script="level37"/>
+        </script>
+        <script name="level37">
+            <command name="level" text="37"/>
+            <command name="shield" x="0" y="30"/>
+            <wait time="10"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="10"/>
+            <spawn script="lineofsaucers"/>
+            <spawn script="meteor_wave"/>
+            <wait time="50"/>
+            <jumpto script="level38"/>
+        </script>
+        <script name="level38">
+            <command name="level" text="38"/>
+            <wait time="10"/>
+            <spawn script="double_circlers"/>
+            <spawn script="lineofsilvers"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="10"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <jumpto script="level39"/>
+        </script>
+        <script name="level39">
+            <command name="level" text="39"/>
+            <spawn script="meteor_wave_2"/>
+            <wait time="10"/>
+            <spawn script="lineofsilvers"/>
+            <wait time="5"/>
+            <spawn script="lineofgolds"/>
+            <wait time="50"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="meteor_wave"/>
+            <jumpto script="level40"/>
+        </script>
+        <script name="level40">
+            <command name="level" text="30"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="5"/>
+            <spawn script="bunchofjumpers"/>
+            <spawn script="circlers_left"/>
+            <spawn script="circlers_right"/>
+            <wait time="20"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <spawn script="lineofsilvers"/>
+            <spawn script="meteor_wave"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="50"/>
+            <spawn script="lineofgolds"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="25"/>
+            <spawn script="bunchofjumpers"/>
+            <wait time="75"/>
+            <jumpto script="level1"/>
+        </script>
+    </scripts>
+</SJGame>

@@ -1,0 +1,634 @@
+<?xml version="1.0" standalone="yes"?>
+<SJGame>
+  <frames web="jumpnrun.gif">
+    <frame name="stair" x="32" y="64" width="32" height="32"/>
+
+    <frame name="white-solid-1" x="64" y="64" width="32" height="32"/>
+    <frame name="white-background-1" x="96" y="64" width="32" height="32"/>
+
+    <frame name="white-mystery-1" x="192" y="0" width="32" height="32"/>
+    <frame name="white-mystery-2" x="224" y="0" width="32" height="32"/>
+    <frame name="white-mystery-3" x="256" y="0" width="32" height="32"/>
+    <frame name="white-mystery-4" x="288" y="0" width="32" height="32"/>
+
+    <frame name="white-solved-mystery-1" x="128" y="64" width="32" height="32"/>
+
+    <frame name="blue-solid-1" x="0" y="0" width="32" height="32"/>
+    <frame name="blue-background-1" x="32" y="0" width="32" height="32"/>
+
+    <frame name="blue-mystery-1" x="192" y="32" width="32" height="32"/>
+    <frame name="blue-mystery-2" x="224" y="32" width="32" height="32"/>
+    <frame name="blue-mystery-3" x="256" y="32" width="32" height="32"/>
+    <frame name="blue-mystery-4" x="288" y="32" width="32" height="32"/>
+
+    <frame name="blue-solved-mystery-1" x="32" y="32" width="32" height="32"/>
+
+    <frame name="attract-solid-1" x="0" y="0" width="32" height="32"/>
+    <frame name="attract-background-1" x="320" y="0" width="32" height="32"/>
+    <frame name="attract-solved-mystery-1" x="32" y="32" width="32" height="32"/>
+
+    <frame name="red-solid-1" x="64" y="0" width="32" height="32"/>
+    <frame name="red-background-1" x="96" y="0" width="32" height="32"/>
+    <frame name="red-mystery-1" x="192" y="64" width="32" height="32"/>
+    <frame name="red-mystery-2" x="224" y="64" width="32" height="32"/>
+    <frame name="red-mystery-3" x="256" y="64" width="32" height="32"/>
+    <frame name="red-mystery-4" x="288" y="64" width="32" height="32"/>
+    <frame name="red-solved-mystery-1" x="96" y="32" width="32" height="32"/>
+
+    <frame name="green-solid-1" x="128" y="0" width="32" height="32"/>
+    <frame name="green-background-1" x="160" y="0" width="32" height="32"/>
+    <frame name="green-mystery-1" x="192" y="96" width="32" height="32"/>
+    <frame name="green-mystery-2" x="224" y="96" width="32" height="32"/>
+    <frame name="green-mystery-3" x="256" y="96" width="32" height="32"/>
+    <frame name="green-mystery-4" x="288" y="96" width="32" height="32"/>
+    <frame name="green-solved-mystery-1" x="160" y="32" width="32" height="32"/>
+
+    <frame name="red-0" x="0" y="32" width="32" height="32"/>
+    <frame name="red-1" x="32" y="32" width="32" height="32"/>
+    <frame name="red-2" x="64" y="32" width="32" height="32"/>
+    <frame name="red-3" x="96" y="32" width="32" height="32"/>
+    <frame name="red-closed" x="128" y="32" width="32" height="32"/>
+    <frame name="red-open" x="160" y="32" width="32" height="32"/>
+
+    <frame name="blue-0" x="0" y="64" width="32" height="32"/>
+    <frame name="blue-1" x="32" y="64" width="32" height="32"/>
+    <frame name="blue-2" x="64" y="64" width="32" height="32"/>
+    <frame name="blue-3" x="96" y="64" width="32" height="32"/>
+    <frame name="blue-closed" x="128" y="64" width="32" height="32"/>
+    <frame name="blue-open" x="160" y="64" width="32" height="32"/>
+
+    <frame name="green-0" x="0" y="96" width="32" height="32"/>
+    <frame name="green-1" x="32" y="96" width="32" height="32"/>
+    <frame name="green-2" x="64" y="96" width="32" height="32"/>
+    <frame name="green-3" x="96" y="96" width="32" height="32"/>
+    <frame name="green-closed" x="128" y="96" width="32" height="32"/>
+    <frame name="green-open" x="160" y="96" width="32" height="32"/>
+
+    <frame name="exit-sign-0" x="0" y="128" width="32" height="32"/>
+    <frame name="exit-sign-1" x="32" y="128" width="32" height="32"/>
+
+    <frame name="player-r-0" x="0" y="192" width="32" height="32"/>
+    <frame name="player-r-1" x="32" y="192" width="32" height="32"/>
+    <frame name="player-r-2" x="64" y="192" width="32" height="32"/>
+    <frame name="player-r-3" x="96" y="192" width="32" height="32"/>
+
+    <frame name="player-l-0" x="0" y="224" width="32" height="32"/>
+    <frame name="player-l-1" x="32" y="224" width="32" height="32"/>
+    <frame name="player-l-2" x="64" y="224" width="32" height="32"/>
+    <frame name="player-l-3" x="96" y="224" width="32" height="32"/>
+    
+    <frame name="player-completed-0" x="128" y="224" width="32" height="32"/>
+    <frame name="player-completed-1" x="160" y="224" width="32" height="32"/>
+
+    <frame name="player-die-0" x="128" y="192" width="32" height="32"/>
+    <frame name="player-die-1" x="160" y="192" width="32" height="32"/>
+    <frame name="player-die-2" x="192" y="192" width="32" height="32"/>
+    <frame name="player-die-3" x="224" y="192" width="32" height="32"/>
+    <frame name="player-die-4" x="256" y="192" width="32" height="32"/>
+    <frame name="player-die-5" x="288" y="192" width="32" height="32"/>
+    <frame name="player-die-6" x="320" y="192" width="32" height="32"/>
+
+    <frame name="red-star-0" x="0" y="352" width="16" height="16"/>
+    <frame name="red-star-1" x="16" y="352" width="16" height="16"/>
+    <frame name="red-star-2" x="32" y="352" width="16" height="16"/>
+
+    <frame name="red-stardust-0" x="48" y="352" width="16" height="16"/>
+    <frame name="red-stardust-1" x="64" y="352" width="16" height="16"/>
+    <frame name="red-stardust-2" x="96" y="352" width="16" height="16"/>
+    <frame name="red-stardust-3" x="128" y="352" width="16" height="16"/>
+
+    <frame name="blue-star-0" x="0" y="600" width="16" height="16"/>
+    <frame name="blue-star-1" x="16" y="600" width="16" height="16"/>
+    <frame name="blue-star-2" x="32" y="600" width="16" height="16"/>
+
+    <frame name="blue-stardust-0" x="48" y="600" width="16" height="16"/>
+    <frame name="blue-stardust-1" x="64" y="600" width="16" height="16"/>
+    <frame name="blue-stardust-2" x="96" y="600" width="16" height="16"/>
+    <frame name="blue-stardust-3" x="128" y="600" width="16" height="16"/>
+
+    <frame name="soap-bubble-1" x="0" y="64" width="32" height="32"/>
+
+    <frame name="logo" x="0" y="400" width="431" height="81"/>
+
+    <frame name="click-here" x="0" y="520" width="289" height="16"/>
+    <frame name="click-here-mouse-over" x="0" y="500" width="289" height="16"/>
+
+    <frame name="0" x="0" y="380" width="8" height="10"/>
+    <frame name="1" x="8" y="380" width="8" height="10"/>
+    <frame name="2" x="16" y="380" width="8" height="10"/>
+    <frame name="3" x="24" y="380" width="8" height="10"/>
+    <frame name="4" x="32" y="380" width="8" height="10"/>
+    <frame name="5" x="40" y="380" width="8" height="10"/>
+    <frame name="6" x="48" y="380" width="8" height="10"/>
+    <frame name="7" x="56" y="380" width="8" height="10"/>
+    <frame name="8" x="64" y="380" width="8" height="10"/>
+    <frame name="9" x="72" y="380" width="8" height="10"/>
+    <frame name="_" x="80" y="380" width="8" height="10"/>
+    <frame name="A" x="88" y="380" width="8" height="10"/>
+    <frame name="B" x="96" y="380" width="8" height="10"/>
+    <frame name="C" x="104" y="380" width="8" height="10"/>
+    <frame name="D" x="112" y="380" width="8" height="10"/>
+    <frame name="E" x="120" y="380" width="8" height="10"/>
+    <frame name="F" x="128" y="380" width="8" height="10"/>
+    <frame name="G" x="136" y="380" width="8" height="10"/>
+    <frame name="H" x="144" y="380" width="8" height="10"/>
+    <frame name="I" x="152" y="380" width="8" height="10"/>
+    <frame name="J" x="160" y="380" width="8" height="10"/>
+    <frame name="K" x="168" y="380" width="8" height="10"/>
+    <frame name="L" x="176" y="380" width="8" height="10"/>
+    <frame name="M" x="184" y="380" width="8" height="10"/>
+    <frame name="N" x="192" y="380" width="8" height="10"/>
+    <frame name="O" x="200" y="380" width="8" height="10"/>
+    <frame name="P" x="208" y="380" width="8" height="10"/>
+    <frame name="Q" x="216" y="380" width="8" height="10"/>
+    <frame name="R" x="224" y="380" width="8" height="10"/>
+    <frame name="S" x="232" y="380" width="8" height="10"/>
+    <frame name="T" x="240" y="380" width="8" height="10"/>
+    <frame name="U" x="248" y="380" width="8" height="10"/>
+    <frame name="V" x="256" y="380" width="8" height="10"/>
+    <frame name="W" x="264" y="380" width="8" height="10"/>
+    <frame name="X" x="272" y="380" width="8" height="10"/>
+    <frame name="Y" x="280" y="380" width="8" height="10"/>
+    <frame name="Z" x="288" y="380" width="8" height="10"/>
+    <frame name=" " x="296" y="380" width="8" height="10"/>
+
+    <frame name="bubble-e-1" x="400" y="0" width="32" height="32"/>
+    <frame name="bubble-e-2" x="432" y="0" width="32" height="32"/>
+    <frame name="bubble-e-3" x="464" y="0" width="32" height="32"/>
+
+    <frame name="bubble-w-1" x="400" y="32" width="32" height="32"/>
+    <frame name="bubble-w-2" x="432" y="32" width="32" height="32"/>
+    <frame name="bubble-w-3" x="464" y="32" width="32" height="32"/>
+
+    <frame name="gameover" x="0" y="540" width="390" height="46"/>
+
+    <frame name="L0" x="200" y="150" width="16" height="22"/>
+    <frame name="L1" x="216" y="150" width="16" height="22"/>
+    <frame name="L2" x="232" y="150" width="16" height="22"/>
+    <frame name="L3" x="248" y="150" width="16" height="22"/>
+    <frame name="L4" x="264" y="150" width="16" height="22"/>
+    <frame name="L5" x="280" y="150" width="16" height="22"/>
+    <frame name="L6" x="296" y="150" width="16" height="22"/>
+    <frame name="L7" x="312" y="150" width="16" height="22"/>
+    <frame name="L8" x="328" y="150" width="16" height="22"/>
+    <frame name="L9" x="344" y="150" width="16" height="22"/>
+
+    <frame name="heart" x="160" y="352" width="32" height="17"/>
+
+    <frame name="hiscore" x="192" y="0" width="175" height="10"/>
+
+    <frame name="yellow-blob-e-1" x="400" y="160" height="24" width="32"/>
+    <frame name="yellow-blob-e-2" x="432" y="160" height="24" width="32"/>
+    <frame name="yellow-blob-e-3" x="464" y="160" height="24" width="32"/>
+    <frame name="yellow-blob-w-1" x="400" y="200" height="24" width="32"/>
+    <frame name="yellow-blob-w-2" x="432" y="200" height="24" width="32"/>
+    <frame name="yellow-blob-w-3" x="464" y="200" height="24" width="32"/>
+    <frame name="yellow-blob-n-1" x="496" y="156" height="28" width="32"/>
+    <frame name="yellow-blob-s-1" x="496" y="200" height="24" width="32"/>
+
+    <frame name="yellow-blob-flying-1" x="551" y="229" width="31" height="38"/>
+    <frame name="yellow-blob-flying-2" x="587" y="229" width="31" height="38"/>
+
+    <frame name="black-blob-hand-1" x="551" y="160" width="34" height="52"/>
+    <frame name="hand-1" x="591" y="160" width="42" height="36"/>
+
+    <frame name="yellow-puf-1" x="400" y="240" height="24" width="32"/>
+    <frame name="yellow-puf-2" x="432" y="240" height="24" width="32"/>
+    <frame name="yellow-puf-3" x="464" y="240" height="24" width="32"/>
+
+    <frame name="black-blob-e-1" x="400" y="280" height="24" width="32"/>
+    <frame name="black-blob-e-2" x="432" y="280" height="24" width="32"/>
+    <frame name="black-blob-e-3" x="464" y="280" height="24" width="32"/>
+    <frame name="black-blob-w-1" x="400" y="320" height="24" width="32"/>
+    <frame name="black-blob-w-2" x="432" y="320" height="24" width="32"/>
+    <frame name="black-blob-w-3" x="464" y="320" height="24" width="32"/>
+    <frame name="black-blob-n-1" x="496" y="276" height="28" width="32"/>
+    <frame name="black-blob-s-1" x="496" y="320" height="24" width="32"/>
+
+    <frame name="black-puf-1" x="400" y="360" height="24" width="32"/>
+    <frame name="black-puf-2" x="432" y="360" height="24" width="32"/>
+    <frame name="black-puf-3" x="464" y="360" height="24" width="32"/>
+
+    <frame name="red-blob-e-1" x="550" y="280" height="24" width="32"/>
+    <frame name="red-blob-e-2" x="582" y="280" height="24" width="32"/>
+    <frame name="red-blob-e-3" x="614" y="280" height="24" width="32"/>
+    <frame name="red-blob-w-1" x="550" y="320" height="24" width="32"/>
+    <frame name="red-blob-w-2" x="582" y="320" height="24" width="32"/>
+    <frame name="red-blob-w-3" x="614" y="320" height="24" width="32"/>
+    <frame name="red-blob-n-1" x="646" y="276" height="28" width="32"/>
+    <frame name="red-blob-s-1" x="646" y="320" height="24" width="32"/>
+
+    <frame name="red-puf-1" x="550" y="360" height="24" width="32"/>
+    <frame name="red-puf-2" x="582" y="360" height="24" width="32"/>
+    <frame name="red-puf-3" x="614" y="360" height="24" width="32"/>
+
+    <frame name="portal-bubble-1" x="0" y="640" height="32" width="32"/>
+    <frame name="portal-bubble-2" x="32" y="640" height="32" width="32"/>
+    <frame name="portal-bubble-3" x="64" y="640" height="32" width="32"/>
+    <frame name="portal-bubble-4" x="96" y="640" height="32" width="32"/>
+  </frames>
+
+  <animations>
+    <animation name="red">red-open</animation>
+    <animation name="blue">blue-open</animation>
+    <animation name="green">green-open</animation>
+    <animation name="player">player-r-0 player-r-1 player-r-2 player-r-3 player-l-0 player-l-1 player-l-2 player-l-3 player-completed-0 player-completed-1 player-die-0 player-die-0 player-die-0 player-die-0 player-die-1 player-die-2 player-die-3 player-die-3 player-die-4 player-die-5 player-die-5 player-die-5 player-die-5 player-die-5 player-die-6 player-die-6 player-die-6 player-die-6 player-die-6 player-die-6 player-die-5 player-die-5 player-die-6</animation>
+    <animation name="exit-sign">exit-sign-0 exit-sign-0 exit-sign-0 exit-sign-0 exit-sign-0 exit-sign-0 exit-sign-1 exit-sign-1 exit-sign-1 exit-sign-1 exit-sign-1 exit-sign-1</animation>
+    <animation name="red-star">red-star-0 red-star-1 red-star-2</animation>
+    <animation name="red-stardust">red-stardust-0 red-stardust-0 red-stardust-1 red-stardust-2 red-stardust-3 red-stardust-2 red-stardust-3 red-stardust-2 red-stardust-3</animation>
+    <animation name="blue-star">blue-star-0 blue-star-1 blue-star-2</animation>
+    <animation name="blue-stardust">blue-stardust-0 blue-stardust-0 blue-stardust-1 blue-stardust-2 blue-stardust-3 blue-stardust-2 blue-stardust-3 blue-stardust-2 blue-stardust-3</animation>
+    <animation name="bubble">bubble-e-1 bubble-e-2 bubble-e-3 bubble-w-1 bubble-w-2 bubble-w-3</animation>
+
+    <animation name="yellow-blob">yellow-blob-e-1 yellow-blob-e-2 yellow-blob-e-3 yellow-blob-e-2 yellow-blob-w-1 yellow-blob-w-2 yellow-blob-w-3 yellow-blob-w-2 yellow-blob-n-1 yellow-blob-s-1</animation>
+    <animation name="yellow-blob-flying">yellow-blob-flying-1 yellow-blob-flying-2</animation>
+    <animation name="yellow-puf">yellow-puf-2 yellow-puf-1 yellow-puf-2 yellow-puf-3</animation>
+    <animation name="yellow-puf-in">yellow-puf-3 yellow-puf-2 yellow-puf-1 yellow-puf-2</animation> 
+
+    <animation name="black-blob">black-blob-e-1 black-blob-e-2 black-blob-e-3 black-blob-e-2 black-blob-w-1 black-blob-w-2 black-blob-w-3 black-blob-w-2 black-blob-n-1 black-blob-s-1</animation>
+    <animation name="black-puf">black-puf-2 black-puf-1 black-puf-2 black-puf-3</animation>
+    <animation name="black-puf-in">black-puf-3 black-puf-2 black-puf-1 black-puf-2</animation>
+
+    <animation name="red-blob">red-blob-e-1 red-blob-e-2 red-blob-e-3 red-blob-e-2 red-blob-w-1 red-blob-w-2 red-blob-w-3 red-blob-w-2 red-blob-n-1 red-blob-s-1</animation>
+    <animation name="red-puf">red-puf-2 red-puf-1 red-puf-2 red-puf-3</animation>
+    <animation name="red-puf-in">red-puf-3 red-puf-2 red-puf-1 red-puf-2</animation>
+
+    <animation name="portal-bubbles">portal-bubble-1 portal-bubble-2 portal-bubble-3 portal-bubble-4</animation>
+    <animation name="blue-mystery">blue-mystery-1 blue-mystery-2 blue-mystery-3 blue-mystery-4</animation>
+    <animation name="red-mystery">red-mystery-1 red-mystery-2 red-mystery-3 red-mystery-4</animation>
+    <animation name="green-mystery">green-mystery-1 green-mystery-2 green-mystery-3 green-mystery-4</animation>
+    <animation name="white-mystery">white-mystery-1 white-mystery-2 white-mystery-3 white-mystery-4</animation>
+    <animation name="attract-mystery">blue-mystery-1 blue-mystery-2 blue-mystery-3 blue-mystery-4</animation>
+  </animations>
+
+  <scripts>
+    <script name="attract">
+      <command name="player" x="80" y="656"/>
+
+      <command name="skin" text="attract"/>
+
+      <command name="yellow-blob" x="336" y="564"/> 
+
+      <wait time="10"/>
+      <command name="control" text="right"/>
+      <wait time="9"/>
+      <command name="control" text=" "/>
+      <command name="sign" text="PUF THE MUFFLE BY JUMPING INTO THE ROOF"/>
+      <wait time="35"/>
+      <command name="control" text="jump"/>
+      <wait time="1"/>
+      <command name="control" text=" "/>
+      <wait time="12"/>
+      <command name="control" text="right"/>
+      <wait time="12"/>
+      <command name="control" text=" "/>
+      <command name="sign" text="HIT THE MAGIC BRICK TO GET THE HIDDEN STARS"/>
+      <wait time="35"/>
+      <command name="control" text="jump"/>
+      <wait time="1"/>
+      <command name="control" text=" "/>
+      <wait time="5"/>
+      <command name="control" text="left"/>
+      <wait time="6"/>
+      <command name="control" text="up"/>
+      <wait time="9"/>
+      <command name="control" text="right jump"/>
+      <wait time="12"/>
+      <command name="control" text=" "/>
+      <wait time="12"/>
+      <command name="control" text="left"/>
+      <wait time="9"/>
+      <command name="control" text=" "/>
+      <command name="sign" text="GET ALL STARS AND FIND THE EXIT"/>
+      <wait time="100"/>
+
+    </script>
+    <script name="level1loop">
+      <command name="yellow-blob-hand" x="176" y="308"/> 
+      <wait time="40"/>
+      <command name="yellow-blob-hand" x="560" y="212"/> 
+      <wait time="200"/>
+      <jumpto script="level1loop"/>
+    </script>
+    <script name="level1">
+      <command name="player" x="208" y="400"/>
+
+      <command name="skin" text="blue"/>
+      <command name="bonus" text="1000"/>
+      <command name="find-exit-text" text="I AM OUT OF HERE"/>
+      <command name="next-level" text="level2"/>
+
+      <command name="bubble" x="288" y="48"/> 
+      <command name="bubble" x="448" y="48"/> 
+
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="208" y="116"/>
+      <wait time="3"/>
+      <command name="black-blob" x="208" y="116"/> 
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="560" y="212"/>
+      <wait time="3"/>
+      <command name="black-blob" x="560" y="212"/> 
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="80" y="308"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="80" y="308"/> 
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="176" y="308"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="176" y="308"/> 
+
+      <wait time="300"/>
+
+      <spawn script="level1loop"/>
+
+    </script>
+    <script name="level2loop">
+      <command name="yellow-blob-hand" x="208" y="532"/> 
+      <wait time="40"/>
+      <command name="yellow-blob-hand" x="528" y="532"/> 
+      <wait time="200"/>
+      <jumpto script="level2loop"/>
+    </script>
+    <script name="level2">
+      <command name="player" x="368" y="464"/>
+
+      <command name="skin" text="green"/>
+      <command name="bonus" text="2000"/>
+      <command name="find-exit-text" text="SEE YOU LATER ALLIGATOR"/>
+      <command name="next-level" text="level3"/>
+
+      <command name="bubble" x="112" y="144"/> 
+      <command name="bubble" x="624" y="144"/> 
+
+      <command name="yellow-blob" x="208" y="532"/> 
+
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="112" y="180"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="112" y="180"/> 
+
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="624" y="180"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="624" y="180"/>
+ 
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="368" y="276"/>
+      <wait time="3"/>
+      <command name="black-blob" x="368" y="276"/> 
+
+      <wait time="300"/>
+
+      <spawn script="level2loop"/>
+
+    </script>
+    <script name="level3loop">
+      <command name="yellow-blob-hand" x="112" y="372"/> 
+      <wait time="30"/>
+      <command name="yellow-blob-hand" x="560" y="180"/> 
+      <wait time="30"/>
+      <command name="yellow-blob-hand" x="688" y="468"/> 
+      <wait time="250"/>
+      <jumpto script="level3loop"/>
+    </script>
+    <script name="level3">
+      <command name="player" x="208" y="368"/>
+
+      <command name="bubble" x="80" y="112"/> 
+      <command name="bubble" x="592" y="144"/> 
+
+      <command name="next-level" text="level4"/>
+      <command name="skin" text="red"/>
+      <command name="bonus" text="4000"/>
+      <command name="find-exit-text" text="BYE BYE ERICH HONNECKER"/>
+
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="496" y="180"/>
+      <wait time="3"/>
+      <command name="black-blob" x="496" y="180"/> 
+
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="368" y="276"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="368" y="276"/> 
+
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="208" y="468"/>
+      <wait time="3"/>
+      <command name="black-blob" x="208" y="468"/> 
+      
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="784" y="468"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="784" y="468"/>
+
+      <wait time="200"/>
+      <spawn script="level3loop"/>
+      
+    </script>
+    <script name="level4loop">
+      <command name="yellow-blob-hand" x="112" y="372"/> 
+      <wait time="50"/>
+      <command name="yellow-blob-hand" x="368" y="468"/> 
+      <wait time="50"/>
+      <command name="yellow-blob-hand" x="688" y="468"/> 
+      <wait time="200"/>
+      <jumpto script="level4loop"/>
+    </script>
+    <script name="level4">
+      <command name="player" x="592" y="368"/>
+
+      <command name="bubble" x="272" y="48"/> 
+      <command name="bubble" x="592" y="48"/> 
+
+      <command name="next-level" text="level5"/>
+      <command name="skin" text="white"/>
+      <command name="bonus" text="5000"/>
+      <command name="find-exit-text" text="HOPLA MOPLA BOPLA"/>
+
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="208" y="468"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="208" y="468"/> 
+      
+
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="208" y="468"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="208" y="468"/> 
+      
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="368" y="276"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="368" y="276"/> 
+
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="592" y="148"/>
+      <wait time="3"/>
+      <command name="black-blob" x="592" y="148"/>
+
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="656" y="148"/>
+      <wait time="3"/>
+      <command name="black-blob" x="656" y="148"/>
+
+      <wait time="150"/>
+      <spawn script="level4loop"/>
+     
+    </script>
+
+    <script name="level5loop">
+      <command name="yellow-blob-hand" x="112" y="212"/> 
+      <wait time="50"/>
+      <command name="yellow-blob-hand" x="528" y="564"/> 
+      <wait time="50"/>
+      <command name="yellow-blob-hand" x="656" y="180"/> 
+      <wait time="150"/>
+      <jumpto script="level5loop"/>
+    </script>
+    <script name="level5">
+      <command name="player" x="304" y="464"/>
+
+      <command name="skin" text="green"/>
+      <command name="bonus" text="6000"/>
+      <command name="find-exit-text" text="VUPTI FUPTI PUPTI"/>
+      <command name="next-level" text="level1"/>
+
+      <command name="bubble" x="112" y="64"/> 
+      <command name="bubble" x="624" y="144"/> 
+
+      <command name="yellow-blob" x="208" y="564"/> 
+      <command name="yellow-blob" x="464" y="564"/> 
+
+      <wait time="2"/>
+      <command name="explosion yellow-puf-in" x="624" y="180"/>
+      <wait time="3"/>
+      <command name="yellow-blob" x="624" y="180"/>
+ 
+      <wait time="2"/>
+      <command name="explosion black-puf-in" x="368" y="276"/>
+      <wait time="3"/>
+      <command name="black-blob" x="368" y="276"/> 
+
+      <wait time="100"/>
+
+      <spawn script="level5loop"/>
+
+    </script>
+
+  </scripts>
+  <mazes>
+    <maze name="attract">
+      <b d=" "></b>
+      <b d=" "></b>
+      <b d=" "></b>
+      <b d=" "></b>
+      <b d=" "></b>
+      <b d=" "></b>
+      <b d="       s    "></b>
+      <b d="   wwwwswmww "></b>
+      <b d="       s     "></b>
+      <b d="       s     "></b>
+      <b d="wwwwwwwwwwwww "></b>
+    </maze>
+    <maze name="level1">
+      <b d="wppppwwwwwwwwwwwwwww"></b>
+      <b d="w..................w"></b>
+      <b d="w..................w"></b>
+      <b d="w...s....E..s...s..w"></b>
+      <b d="w...swwwwwwwswwwswww"></b>
+      <b d="w...s.......s...s..w"></b>
+      <b d="w...s....s..s.s.s..w"></b>
+      <b d="wwwws...wswmwwswwwww"></b>
+      <b d="w...s....s....s....w"></b>
+      <b d="w...s..s.s..s.s....w"></b>
+      <b d="wwwwwwwswwwwswww...w"></b>
+      <b d="w......s....s......w"></b>
+      <b d="w......s....s......w"></b>
+      <b d="wppppwwwwwwwwwwwwwww"></b>
+    </maze>
+    <maze name="level2">
+      <b d="wppppw           wppppw"></b>
+      <b d="w....w           w....w"></b>
+      <b d="w....wwwwwwwwwwwww....w"></b>
+      <b d="w.....................w"></b>
+      <b d="w.....................w"></b>
+      <b d="w....s.......s...s....w"></b>
+      <b d="wwwwwsw.....wswwwswwwww"></b>
+      <b d="w....s.......s...s....w"></b>
+      <b d="w....s...s...s...s....w"></b>
+      <b d="w....s..wswmwsw..s....w"></b>
+      <b d="w....s...s...s...s....w"></b>
+      <b d="w....s.s.s.E.s.s.s....w"></b>
+      <b d="w...wwwswwwwwwwswww...w"></b>
+      <b d="w......s.......s......w"></b>
+      <b d="w......s.......s......w"></b>
+      <b d="w......swwwwwwws......w"></b>
+      <b d="w......sw     ws......w"></b>
+      <b d="wppppwwww     wwwwppppw"></b>
+    </maze>
+    <maze name="level3">
+      <b d="          wpppppw    "></b>
+      <b d="wwwwwwwwwww.....w           "></b>
+      <b d="w...............wwwwwwwwwwww"></b>
+      <b d="w..........................w"></b>
+      <b d="w....s.....................w"></b>
+      <b d="wwwwwsww.....s.........s...w"></b>
+      <b d="w....s....wmwswwwwwwmwwsw..w"></b>
+      <b d="w....s.......s.........s...w"></b>
+      <b d="w....s.......s.....s...s.s.w"></b>
+      <b d="wwwwwswwwwwwwsw...wswwwwwsww"></b>
+      <b d="w....s.......s.....s.....s.w"></b>
+      <b d="w....s..s....s...s.s.....s.w"></b>
+      <b d="wwwwwwwwsw..wwwwwswwwww..s.w"></b>
+      <b d="   w....s........s.......s.w"></b>
+      <b d="   w....s........s.......s.w"></b>
+      <b d="   wwwwwwww.....wwwwwwwwwwww"></b>
+      <b d="          w.....w    "></b>
+      <b d="          w..E..w    "></b>
+      <b d="          wpppppw    "></b>
+    </maze>
+    <maze name="level4">
+      <b d="      wpppw     wpppw"></b>
+      <b d="wwwwwww...wwwwwww...wwwwwwww"></b>
+      <b d="w..........................w"></b>
+      <b d="w..........................w"></b>
+      <b d="w..................E...s...w"></b>
+      <b d="w......s.....s...wwwwwwswwww"></b>
+      <b d="w.....wswwmwwsw........s...w"></b>
+      <b d="w......s.....s.....s...s.s.w"></b>
+      <b d="w.s..s.s.....s....wswwwwwsww"></b>
+      <b d="wwswwswwmwwwwsw....s.....s.w"></b>
+      <b d="w.s..s.......s.....s.....s.w"></b>
+      <b d="w.s..s.......s..s..s.s...s.w"></b>
+      <b d="wwwwwsww...wwswwswmwwsw..s.w"></b>
+      <b d="   w.s.......s..s....s...s.w"></b>
+      <b d="   w.s.......s..s....s...s.w"></b>
+      <b d="   wwww...wwwwwww...wwwwwwww"></b>
+      <b d="      w...w     w...w"></b>
+      <b d="      wpppw     wpppw"></b>
+    </maze>
+    <maze name="level5">
+      <b d="wppppw           wppppw"></b>
+      <b d="w....w           w....w"></b>
+      <b d="w....wwwwwwwwwwwww....w"></b>
+      <b d="w.....................w"></b>
+      <b d="w.....................w"></b>
+      <b d="w............s...s.E..w"></b>
+      <b d="w....s......wswmwswwwww"></b>
+      <b d="wwwwwsw......s...s....w"></b>
+      <b d="w....s...s...s...s....w"></b>
+      <b d="w....s...smwwswwwwwwmww"></b>
+      <b d="w....s...s...s........w"></b>
+      <b d="w....s...s.s.s.s......w"></b>
+      <b d="w...wswwwwwswwws......w"></b>
+      <b d="w....s.....s...s......w"></b>
+      <b d="w....s.....s...s......w"></b>
+      <b d="wwwwwswwwmwwwwws......w"></b>
+      <b d="w....s.........s......w"></b>
+      <b d="w....s.........s......w"></b>
+      <b d="wppppwwwwwwwwwwwwwppppw"></b>
+    </maze>
+  </mazes>
+</SJGame>

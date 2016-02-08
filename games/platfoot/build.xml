@@ -1,0 +1,12 @@
+<project name="platfoot" default="compile" basedir=".">
+    <property name="src" value="src"/>
+    <property name="build" value="."/>
+
+    <target name="init">
+        <tstamp/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src}" destdir="${build}" nowarn="on" source="1.1" target="1.1"/>
+    </target>
+</project>

@@ -1,0 +1,27 @@
+<project name="minorbug" default="dist" basedir=".">
+    <property name="project" value="minorbug"/>
+    <property name="src" value="src"/>
+    <property name="build" value="classes"/>
+    <property name="dist" value="."/>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src}" destdir="${build}" nowarn="on" source="1.1" target="1.1"/>
+    </target>
+
+    <target name="dist" depends="compile">
+        <mkdir dir="${dist}"/>
+        <jar jarfile="${dist}/${project}.jar">
+            <fileset dir="${build}"/>
+        </jar>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build}"/>
+        <delete file="${dist}/${project}.jar"/>
+    </target>
+</project>

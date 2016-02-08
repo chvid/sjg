@@ -1,0 +1,39 @@
+<project name="triple-punch" default="dist" basedir=".">
+    <property name="project" value="triple-punch"/>
+    <property name="src" value="src"/>
+    <property name="build" value="classes"/>
+    <property name="dist" value="."/>
+    <property name="res" value="res"/>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}"/>
+
+        <copy todir=".">
+            <fileset dir="../../framework">
+                <filename name="sjg.jar"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src}" destdir="${build}" nowarn="on" target="1.1" source="1.3">
+            <classpath>
+                <pathelement location="sjg.jar"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="dist" depends="compile">
+        <mkdir dir="${dist}"/>
+        <jar manifest="etc/manifest.mf" jarfile="${dist}/${project}.jar">
+            <fileset dir="${build}"/>
+            <fileset dir="${res}"/>
+        </jar>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build}"/>
+        <delete file="${dist}/${project}.jar"/>
+    </target>
+</project>
